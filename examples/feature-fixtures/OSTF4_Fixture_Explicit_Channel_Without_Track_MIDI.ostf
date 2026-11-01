@@ -1,0 +1,133 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Event channel is explicit without track MIDI settings",
+    "description": "OSTF 4.0 feature fixture: Event channel is explicit without track MIDI settings.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-no-track-midi-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-no-track-midi-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-no-track-midi-track",
+    "melodyTrackIds": [
+      "fx-no-track-midi-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-no-track-midi-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-no-track-midi-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-no-track-midi-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-no-track-midi-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-no-track-midi-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96,
+              "channel": 8
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-no-track-midi-cc",
+              "start": 0,
+              "type": "controlChange",
+              "channel": 8,
+              "controller": 11,
+              "value": 96
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic"
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-no-track-midi-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}

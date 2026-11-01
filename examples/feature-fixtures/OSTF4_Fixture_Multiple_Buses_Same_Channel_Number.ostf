@@ -1,0 +1,163 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Multiple buses reuse Channel 1",
+    "description": "OSTF 4.0 musical demo: Multiple buses reuse Channel 1.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-buses-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-buses-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-buses-a",
+    "melodyTrackIds": [
+      "fx-buses-a",
+      "fx-buses-b"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-buses-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-buses-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-buses-a",
+      "name": "Track A",
+      "clips": [
+        {
+          "id": "fx-buses-a-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-buses-a-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "busId": "fx-buses-bus-a",
+        "mode": "singleChannel",
+        "channel": 1
+      }
+    },
+    {
+      "id": "fx-buses-b",
+      "name": "Track B",
+      "clips": [
+        {
+          "id": "fx-buses-b-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-buses-b-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 67,
+              "velocity": 96
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "busId": "fx-buses-bus-b",
+        "mode": "singleChannel",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-buses-bus-a",
+        "name": "Bus A"
+      },
+      {
+        "id": "fx-buses-bus-b",
+        "name": "Bus B"
+      }
+    ]
+  }
+}

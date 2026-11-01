@@ -1,0 +1,185 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Common musical CC controllers",
+    "description": "OSTF 4.0 feature fixture: Common musical CC controllers.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-cc-common-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-cc-common-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-cc-common-track",
+    "melodyTrackIds": [
+      "fx-cc-common-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-cc-common-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-cc-common-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-cc-common-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-cc-common-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-cc-common-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-cc-common-ev0",
+              "start": 0,
+              "type": "controlChange",
+              "controller": 1,
+              "value": 64
+            },
+            {
+              "id": "fx-cc-common-ev1",
+              "start": 240,
+              "type": "controlChange",
+              "controller": 7,
+              "value": 100
+            },
+            {
+              "id": "fx-cc-common-ev2",
+              "start": 480,
+              "type": "controlChange",
+              "controller": 10,
+              "value": 64
+            },
+            {
+              "id": "fx-cc-common-ev3",
+              "start": 720,
+              "type": "controlChange",
+              "controller": 11,
+              "value": 96
+            },
+            {
+              "id": "fx-cc-common-ev4",
+              "start": 960,
+              "type": "controlChange",
+              "controller": 64,
+              "value": 127
+            },
+            {
+              "id": "fx-cc-common-ev5",
+              "start": 1200,
+              "type": "controlChange",
+              "controller": 74,
+              "value": 80
+            },
+            {
+              "id": "fx-cc-common-ev6",
+              "start": 1440,
+              "type": "controlChange",
+              "controller": 91,
+              "value": 48
+            },
+            {
+              "id": "fx-cc-common-ev7",
+              "start": 1680,
+              "type": "controlChange",
+              "controller": 93,
+              "value": 32
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "singleChannel",
+        "busId": "fx-cc-common-bus",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-cc-common-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}

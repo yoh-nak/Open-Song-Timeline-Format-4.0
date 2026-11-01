@@ -1,0 +1,135 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Pitch Bend Max",
+    "description": "OSTF 4.0 feature fixture: Pitch Bend Max.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-pitch-bend-max-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-pitch-bend-max-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-pitch-bend-max-track",
+    "melodyTrackIds": [
+      "fx-pitch-bend-max-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-pitch-bend-max-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-pitch-bend-max-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-pitch-bend-max-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-pitch-bend-max-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-pitch-bend-max-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-pitch-bend-max-pb",
+              "start": 240,
+              "type": "pitchBend",
+              "value14": 16383
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "singleChannel",
+        "busId": "fx-pitch-bend-max-bus",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-pitch-bend-max-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3923 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Last Platform",
+    "description": "24-bar 3/4 ballad with developed vocal phrasing, complete lyric alignment, tempo relaxation and targeted pitch/pressure expression.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "G",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "d03-genre-1",
+        "name": "Ballad"
+      },
+      {
+        "id": "d03-genre-2",
+        "name": "Singer-Songwriter"
+      }
+    ],
+    "moods": [
+      {
+        "id": "d03-mood-1",
+        "name": "Reflective"
+      },
+      {
+        "id": "d03-mood-2",
+        "name": "Warm"
+      }
+    ],
+    "scale": {
+      "id": "d03-scale-global",
+      "tonic": {
+        "step": "G",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "label": "G major"
+    },
+    "primaryMelodyTrackId": "d03-lead",
+    "melodyTrackIds": [
+      "d03-lead"
+    ],
+    "primaryLyricDocumentId": "d03-lyric-main",
+    "languages": [
+      "en"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "d03-sec-intro",
+        "name": "Intro",
+        "start": 0,
+        "duration": 11520,
+        "role": "intro"
+      },
+      {
+        "id": "d03-sec-verse1",
+        "name": "Verse 1",
+        "start": 11520,
+        "duration": 23040,
+        "role": "verse1"
+      },
+      {
+        "id": "d03-sec-chorus",
+        "name": "Chorus",
+        "start": 34560,
+        "duration": 23040,
+        "role": "chorus"
+      },
+      {
+        "id": "d03-sec-coda",
+        "name": "Coda",
+        "start": 57600,
+        "duration": 11520,
+        "role": "coda"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 72
+      },
+      {
+        "at": 46080,
+        "bpm": 70
+      },
+      {
+        "at": 57600,
+        "bpm": 68
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 3,
+        "denominator": 4
+      }
+    ],
+    "duration": 69120,
+    "barOrigin": 0
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "d03-ch-01",
+        "start": 0,
+        "duration": 2880,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-02",
+        "start": 2880,
+        "duration": 2880,
+        "label": "D/F#",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "bass": {
+          "step": "F",
+          "alter": 1
+        },
+        "voicing": {
+          "pitches": [
+            54,
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-03",
+        "start": 5760,
+        "duration": 2880,
+        "label": "Em7",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            64,
+            67,
+            71,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-04",
+        "start": 8640,
+        "duration": 2880,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-05",
+        "start": 11520,
+        "duration": 2880,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-06",
+        "start": 14400,
+        "duration": 2880,
+        "label": "D/F#",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "bass": {
+          "step": "F",
+          "alter": 1
+        },
+        "voicing": {
+          "pitches": [
+            54,
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-07",
+        "start": 17280,
+        "duration": 2880,
+        "label": "Em7",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            64,
+            67,
+            71,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-08",
+        "start": 20160,
+        "duration": 2880,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-09",
+        "start": 23040,
+        "duration": 2880,
+        "label": "G/B",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "bass": {
+          "step": "B",
+          "alter": 0
+        },
+        "voicing": {
+          "pitches": [
+            47,
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-10",
+        "start": 25920,
+        "duration": 2880,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-11",
+        "start": 28800,
+        "duration": 2880,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-12",
+        "start": 31680,
+        "duration": 2880,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-13",
+        "start": 34560,
+        "duration": 2880,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-14",
+        "start": 37440,
+        "duration": 2880,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-15",
+        "start": 40320,
+        "duration": 2880,
+        "label": "Bm7",
+        "root": {
+          "step": "B",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            59,
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-16",
+        "start": 43200,
+        "duration": 2880,
+        "label": "Em7",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            64,
+            67,
+            71,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-17",
+        "start": 46080,
+        "duration": 2880,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-18",
+        "start": 48960,
+        "duration": 2880,
+        "label": "G/B",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "bass": {
+          "step": "B",
+          "alter": 0
+        },
+        "voicing": {
+          "pitches": [
+            47,
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-19",
+        "start": 51840,
+        "duration": 2880,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-20",
+        "start": 54720,
+        "duration": 2880,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-21",
+        "start": 57600,
+        "duration": 2880,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-22",
+        "start": 60480,
+        "duration": 2880,
+        "label": "D/F#",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "bass": {
+          "step": "F",
+          "alter": 1
+        },
+        "voicing": {
+          "pitches": [
+            54,
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-23",
+        "start": 63360,
+        "duration": 2880,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d03-ch-24",
+        "start": 66240,
+        "duration": 2880,
+        "label": "G",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      }
+    ],
+    "scales": [
+      {
+        "id": "d03-scale-01",
+        "start": 0,
+        "duration": 69120,
+        "label": "G major",
+        "tonic": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "d03-lead",
+      "name": "Lead Vocal",
+      "role": "melody",
+      "instrument": {
+        "name": "Lead Vocal",
+        "family": "voice"
+      },
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "d03-lead-clip",
+          "name": "Lead Vocal",
+          "start": 0,
+          "duration": 69120,
+          "notes": [
+            {
+              "id": "d03-lead-n0001",
+              "start": 5760,
+              "duration": 1200,
+              "pitch": 74,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0002",
+              "start": 7200,
+              "duration": 480,
+              "pitch": 72,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0003",
+              "start": 7920,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0004",
+              "start": 8640,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0005",
+              "start": 9600,
+              "duration": 480,
+              "pitch": 67,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0006",
+              "start": 10320,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0007",
+              "start": 11520,
+              "duration": 720,
+              "pitch": 71,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0008",
+              "start": 12480,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0009",
+              "start": 13440,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0010",
+              "start": 14640,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0011",
+              "start": 15360,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0012",
+              "start": 16560,
+              "duration": 480,
+              "pitch": 74,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0013",
+              "start": 17280,
+              "duration": 1200,
+              "pitch": 72,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0014",
+              "start": 18720,
+              "duration": 480,
+              "pitch": 71,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0015",
+              "start": 19440,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0016",
+              "start": 20160,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0017",
+              "start": 21120,
+              "duration": 480,
+              "pitch": 71,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0018",
+              "start": 21840,
+              "duration": 960,
+              "pitch": 67,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0019",
+              "start": 23040,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0020",
+              "start": 24000,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0021",
+              "start": 24960,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0022",
+              "start": 26160,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0023",
+              "start": 26880,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0024",
+              "start": 28080,
+              "duration": 480,
+              "pitch": 72,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0025",
+              "start": 28800,
+              "duration": 1200,
+              "pitch": 74,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0026",
+              "start": 30240,
+              "duration": 480,
+              "pitch": 72,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0027",
+              "start": 30960,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0028",
+              "start": 31680,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0029",
+              "start": 32640,
+              "duration": 480,
+              "pitch": 67,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0030",
+              "start": 33360,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0031",
+              "start": 34560,
+              "duration": 720,
+              "pitch": 71,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0032",
+              "start": 35520,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0033",
+              "start": 36480,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0034",
+              "start": 37680,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0035",
+              "start": 38400,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0036",
+              "start": 39600,
+              "duration": 480,
+              "pitch": 74,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0037",
+              "start": 40320,
+              "duration": 1200,
+              "pitch": 72,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0038",
+              "start": 41760,
+              "duration": 480,
+              "pitch": 71,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0039",
+              "start": 42480,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0040",
+              "start": 43200,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0041",
+              "start": 44160,
+              "duration": 480,
+              "pitch": 71,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0042",
+              "start": 44880,
+              "duration": 960,
+              "pitch": 67,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0043",
+              "start": 46080,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0044",
+              "start": 47040,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0045",
+              "start": 48000,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0046",
+              "start": 49200,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0047",
+              "start": 49920,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0048",
+              "start": 51120,
+              "duration": 480,
+              "pitch": 72,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0049",
+              "start": 51840,
+              "duration": 1200,
+              "pitch": 74,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0050",
+              "start": 53280,
+              "duration": 480,
+              "pitch": 72,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0051",
+              "start": 54000,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0052",
+              "start": 54720,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0053",
+              "start": 55680,
+              "duration": 480,
+              "pitch": 67,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0054",
+              "start": 56400,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0055",
+              "start": 57600,
+              "duration": 1200,
+              "pitch": 71,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0056",
+              "start": 59280,
+              "duration": 900,
+              "pitch": 74,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0057",
+              "start": 60720,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0058",
+              "start": 61440,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0059",
+              "start": 62640,
+              "duration": 480,
+              "pitch": 72,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0060",
+              "start": 63360,
+              "duration": 1200,
+              "pitch": 72,
+              "velocity": 96,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0061",
+              "start": 65040,
+              "duration": 900,
+              "pitch": 69,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0062",
+              "start": 66240,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 100,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0063",
+              "start": 67200,
+              "duration": 480,
+              "pitch": 67,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d03-lead-n0064",
+              "start": 67920,
+              "duration": 960,
+              "pitch": 71,
+              "velocity": 92,
+              "channel": 1
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "d03-lead-program",
+              "start": 0,
+              "type": "programChange",
+              "channel": 1,
+              "program": 53
+            },
+            {
+              "id": "d03-lead-bend-0",
+              "start": 13680,
+              "type": "pitchBend",
+              "channel": 1,
+              "targetNoteId": "d03-lead-n0009",
+              "value14": 8612
+            },
+            {
+              "id": "d03-lead-bend-reset-0",
+              "start": 14100,
+              "type": "pitchBend",
+              "channel": 1,
+              "targetNoteId": "d03-lead-n0009",
+              "value14": 8192
+            },
+            {
+              "id": "d03-lead-bend-1",
+              "start": 29200,
+              "type": "pitchBend",
+              "channel": 1,
+              "targetNoteId": "d03-lead-n0025",
+              "value14": 9032
+            },
+            {
+              "id": "d03-lead-bend-reset-1",
+              "start": 29940,
+              "type": "pitchBend",
+              "channel": 1,
+              "targetNoteId": "d03-lead-n0025",
+              "value14": 8192
+            },
+            {
+              "id": "d03-lead-pressure",
+              "start": 34920,
+              "type": "channelPressure",
+              "channel": 1,
+              "targetNoteId": "d03-lead-n0031",
+              "value": 78
+            },
+            {
+              "id": "d03-lead-poly",
+              "start": 40920,
+              "type": "polyPressure",
+              "channel": 1,
+              "targetNoteId": "d03-lead-n0037",
+              "pitch": 72,
+              "value": 72
+            },
+            {
+              "id": "d03-lead-bend-2",
+              "start": 66480,
+              "type": "pitchBend",
+              "channel": 1,
+              "targetNoteId": "d03-lead-n0062",
+              "value14": 9452
+            },
+            {
+              "id": "d03-lead-bend-reset-2",
+              "start": 66900,
+              "type": "pitchBend",
+              "channel": 1,
+              "targetNoteId": "d03-lead-n0062",
+              "value14": 8192
+            }
+          ]
+        }
+      ],
+      "midi": {
+        "busId": "d03-bus-main",
+        "mode": "singleChannel",
+        "channel": 1
+      }
+    },
+    {
+      "id": "d03-piano",
+      "name": "Grand Piano",
+      "role": "harmony",
+      "instrument": {
+        "name": "Grand Piano",
+        "family": "piano"
+      },
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "d03-piano-clip",
+          "name": "Piano",
+          "start": 0,
+          "duration": 69120,
+          "notes": [
+            {
+              "id": "d03-piano-n0001",
+              "start": 0,
+              "duration": 360,
+              "pitch": 55,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0002",
+              "start": 480,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0003",
+              "start": 960,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0004",
+              "start": 1440,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0005",
+              "start": 1920,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0006",
+              "start": 2400,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0007",
+              "start": 2880,
+              "duration": 360,
+              "pitch": 54,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0008",
+              "start": 3360,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0009",
+              "start": 3840,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0010",
+              "start": 4320,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0011",
+              "start": 4800,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0012",
+              "start": 5280,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0013",
+              "start": 5760,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0014",
+              "start": 6240,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0015",
+              "start": 6720,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0016",
+              "start": 7200,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0017",
+              "start": 7680,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0018",
+              "start": 8160,
+              "duration": 360,
+              "pitch": 79,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0019",
+              "start": 8640,
+              "duration": 360,
+              "pitch": 60,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0020",
+              "start": 9120,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0021",
+              "start": 9600,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0022",
+              "start": 10080,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0023",
+              "start": 10560,
+              "duration": 360,
+              "pitch": 72,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0024",
+              "start": 11040,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0025",
+              "start": 11520,
+              "duration": 360,
+              "pitch": 55,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0026",
+              "start": 12000,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0027",
+              "start": 12480,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0028",
+              "start": 12960,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0029",
+              "start": 13440,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0030",
+              "start": 13920,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0031",
+              "start": 14400,
+              "duration": 360,
+              "pitch": 54,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0032",
+              "start": 14880,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0033",
+              "start": 15360,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0034",
+              "start": 15840,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0035",
+              "start": 16320,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0036",
+              "start": 16800,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0037",
+              "start": 17280,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0038",
+              "start": 17760,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0039",
+              "start": 18240,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0040",
+              "start": 18720,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0041",
+              "start": 19200,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0042",
+              "start": 19680,
+              "duration": 360,
+              "pitch": 79,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0043",
+              "start": 20160,
+              "duration": 360,
+              "pitch": 60,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0044",
+              "start": 20640,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0045",
+              "start": 21120,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0046",
+              "start": 21600,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0047",
+              "start": 22080,
+              "duration": 360,
+              "pitch": 72,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0048",
+              "start": 22560,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0049",
+              "start": 23040,
+              "duration": 360,
+              "pitch": 47,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0050",
+              "start": 23520,
+              "duration": 360,
+              "pitch": 55,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0051",
+              "start": 24000,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0052",
+              "start": 24480,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0053",
+              "start": 24960,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0054",
+              "start": 25440,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0055",
+              "start": 25920,
+              "duration": 360,
+              "pitch": 57,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0056",
+              "start": 26400,
+              "duration": 360,
+              "pitch": 60,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0057",
+              "start": 26880,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0058",
+              "start": 27360,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0059",
+              "start": 27840,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0060",
+              "start": 28320,
+              "duration": 360,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0061",
+              "start": 28800,
+              "duration": 360,
+              "pitch": 60,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0062",
+              "start": 29280,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0063",
+              "start": 29760,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0064",
+              "start": 30240,
+              "duration": 360,
+              "pitch": 72,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0065",
+              "start": 30720,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0066",
+              "start": 31200,
+              "duration": 360,
+              "pitch": 79,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0067",
+              "start": 31680,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0068",
+              "start": 32160,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0069",
+              "start": 32640,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0070",
+              "start": 33120,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0071",
+              "start": 33600,
+              "duration": 360,
+              "pitch": 78,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0072",
+              "start": 34080,
+              "duration": 360,
+              "pitch": 81,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0073",
+              "start": 34560,
+              "duration": 360,
+              "pitch": 60,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0074",
+              "start": 35040,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0075",
+              "start": 35520,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0076",
+              "start": 36000,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0077",
+              "start": 36480,
+              "duration": 360,
+              "pitch": 72,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0078",
+              "start": 36960,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0079",
+              "start": 37440,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0080",
+              "start": 37920,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0081",
+              "start": 38400,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0082",
+              "start": 38880,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0083",
+              "start": 39360,
+              "duration": 360,
+              "pitch": 78,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0084",
+              "start": 39840,
+              "duration": 360,
+              "pitch": 81,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0085",
+              "start": 40320,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0086",
+              "start": 40800,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0087",
+              "start": 41280,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0088",
+              "start": 41760,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0089",
+              "start": 42240,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0090",
+              "start": 42720,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0091",
+              "start": 43200,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0092",
+              "start": 43680,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0093",
+              "start": 44160,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0094",
+              "start": 44640,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0095",
+              "start": 45120,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0096",
+              "start": 45600,
+              "duration": 360,
+              "pitch": 79,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0097",
+              "start": 46080,
+              "duration": 360,
+              "pitch": 60,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0098",
+              "start": 46560,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0099",
+              "start": 47040,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0100",
+              "start": 47520,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0101",
+              "start": 48000,
+              "duration": 360,
+              "pitch": 72,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0102",
+              "start": 48480,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0103",
+              "start": 48960,
+              "duration": 360,
+              "pitch": 47,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0104",
+              "start": 49440,
+              "duration": 360,
+              "pitch": 55,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0105",
+              "start": 49920,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0106",
+              "start": 50400,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0107",
+              "start": 50880,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0108",
+              "start": 51360,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0109",
+              "start": 51840,
+              "duration": 360,
+              "pitch": 57,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0110",
+              "start": 52320,
+              "duration": 360,
+              "pitch": 60,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0111",
+              "start": 52800,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0112",
+              "start": 53280,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0113",
+              "start": 53760,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0114",
+              "start": 54240,
+              "duration": 360,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0115",
+              "start": 54720,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0116",
+              "start": 55200,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0117",
+              "start": 55680,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0118",
+              "start": 56160,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0119",
+              "start": 56640,
+              "duration": 360,
+              "pitch": 78,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0120",
+              "start": 57120,
+              "duration": 360,
+              "pitch": 81,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0121",
+              "start": 57600,
+              "duration": 360,
+              "pitch": 55,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0122",
+              "start": 58080,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0123",
+              "start": 58560,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0124",
+              "start": 59040,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0125",
+              "start": 59520,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0126",
+              "start": 60000,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0127",
+              "start": 60480,
+              "duration": 360,
+              "pitch": 54,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0128",
+              "start": 60960,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0129",
+              "start": 61440,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0130",
+              "start": 61920,
+              "duration": 360,
+              "pitch": 69,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0131",
+              "start": 62400,
+              "duration": 360,
+              "pitch": 66,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0132",
+              "start": 62880,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0133",
+              "start": 63360,
+              "duration": 360,
+              "pitch": 60,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0134",
+              "start": 63840,
+              "duration": 360,
+              "pitch": 64,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0135",
+              "start": 64320,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0136",
+              "start": 64800,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0137",
+              "start": 65280,
+              "duration": 360,
+              "pitch": 72,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0138",
+              "start": 65760,
+              "duration": 360,
+              "pitch": 76,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0139",
+              "start": 66240,
+              "duration": 360,
+              "pitch": 55,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0140",
+              "start": 66720,
+              "duration": 360,
+              "pitch": 59,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0141",
+              "start": 67200,
+              "duration": 360,
+              "pitch": 62,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0142",
+              "start": 67680,
+              "duration": 360,
+              "pitch": 67,
+              "velocity": 62,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0143",
+              "start": 68160,
+              "duration": 360,
+              "pitch": 71,
+              "velocity": 67,
+              "channel": 2
+            },
+            {
+              "id": "d03-piano-n0144",
+              "start": 68640,
+              "duration": 360,
+              "pitch": 74,
+              "velocity": 72,
+              "channel": 2
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "d03-piano-program",
+              "start": 0,
+              "type": "programChange",
+              "channel": 2,
+              "program": 0
+            }
+          ]
+        }
+      ],
+      "midi": {
+        "busId": "d03-bus-main",
+        "mode": "singleChannel",
+        "channel": 2
+      }
+    },
+    {
+      "id": "d03-bass",
+      "name": "Acoustic Bass",
+      "role": "bass",
+      "instrument": {
+        "name": "Acoustic Bass",
+        "family": "bass"
+      },
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "d03-bass-clip",
+          "name": "Bass",
+          "start": 0,
+          "duration": 69120,
+          "notes": [
+            {
+              "id": "d03-bass-n0001",
+              "start": 0,
+              "duration": 1680,
+              "pitch": 43,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0002",
+              "start": 1920,
+              "duration": 960,
+              "pitch": 50,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0003",
+              "start": 2880,
+              "duration": 1680,
+              "pitch": 42,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0004",
+              "start": 4800,
+              "duration": 960,
+              "pitch": 49,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0005",
+              "start": 5760,
+              "duration": 1680,
+              "pitch": 40,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0006",
+              "start": 7680,
+              "duration": 960,
+              "pitch": 47,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0007",
+              "start": 8640,
+              "duration": 1680,
+              "pitch": 36,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0008",
+              "start": 10560,
+              "duration": 960,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0009",
+              "start": 11520,
+              "duration": 1680,
+              "pitch": 43,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0010",
+              "start": 13440,
+              "duration": 960,
+              "pitch": 50,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0011",
+              "start": 14400,
+              "duration": 1680,
+              "pitch": 42,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0012",
+              "start": 16320,
+              "duration": 960,
+              "pitch": 49,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0013",
+              "start": 17280,
+              "duration": 1680,
+              "pitch": 40,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0014",
+              "start": 19200,
+              "duration": 960,
+              "pitch": 47,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0015",
+              "start": 20160,
+              "duration": 1680,
+              "pitch": 36,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0016",
+              "start": 22080,
+              "duration": 960,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0017",
+              "start": 23040,
+              "duration": 1680,
+              "pitch": 35,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0018",
+              "start": 24960,
+              "duration": 960,
+              "pitch": 42,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0019",
+              "start": 25920,
+              "duration": 1680,
+              "pitch": 33,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0020",
+              "start": 27840,
+              "duration": 960,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0021",
+              "start": 28800,
+              "duration": 1680,
+              "pitch": 36,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0022",
+              "start": 30720,
+              "duration": 960,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0023",
+              "start": 31680,
+              "duration": 1680,
+              "pitch": 38,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0024",
+              "start": 33600,
+              "duration": 960,
+              "pitch": 45,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0025",
+              "start": 34560,
+              "duration": 1680,
+              "pitch": 36,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0026",
+              "start": 36480,
+              "duration": 960,
+              "pitch": 43,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0027",
+              "start": 37440,
+              "duration": 1680,
+              "pitch": 38,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0028",
+              "start": 39360,
+              "duration": 960,
+              "pitch": 45,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0029",
+              "start": 40320,
+              "duration": 1680,
+              "pitch": 35,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0030",
+              "start": 42240,
+              "duration": 960,
+              "pitch": 42,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0031",
+              "start": 43200,
+              "duration": 1680,
+              "pitch": 40,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0032",
+              "start": 45120,
+              "duration": 960,
+              "pitch": 47,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0033",
+              "start": 46080,
+              "duration": 1680,
+              "pitch": 36,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0034",
+              "start": 48000,
+              "duration": 960,
+              "pitch": 43,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0035",
+              "start": 48960,
+              "duration": 1680,
+              "pitch": 35,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0036",
+              "start": 50880,
+              "duration": 960,
+              "pitch": 42,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0037",
+              "start": 51840,
+              "duration": 1680,
+              "pitch": 33,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0038",
+              "start": 53760,
+              "duration": 960,
+              "pitch": 40,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0039",
+              "start": 54720,
+              "duration": 1680,
+              "pitch": 38,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0040",
+              "start": 56640,
+              "duration": 960,
+              "pitch": 45,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0041",
+              "start": 57600,
+              "duration": 1680,
+              "pitch": 43,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0042",
+              "start": 59520,
+              "duration": 960,
+              "pitch": 50,
+              "velocity": 82,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0043",
+              "start": 60480,
+              "duration": 1680,
+              "pitch": 42,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0044",
+              "start": 62400,
+              "duration": 960,
+              "pitch": 49,
+              "velocity": 85,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0045",
+              "start": 63360,
+              "duration": 1680,
+              "pitch": 36,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0046",
+              "start": 65280,
+              "duration": 960,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0047",
+              "start": 66240,
+              "duration": 1680,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 3
+            },
+            {
+              "id": "d03-bass-n0048",
+              "start": 68160,
+              "duration": 960,
+              "pitch": 50,
+              "velocity": 91,
+              "channel": 3
+            }
+          ]
+        }
+      ],
+      "midi": {
+        "busId": "d03-bus-main",
+        "mode": "singleChannel",
+        "channel": 3
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "d03-lyric-main",
+        "title": "Main Lyrics",
+        "language": "en"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "d03-phrase-01",
+        "documentId": "d03-lyric-main",
+        "text": "Last train fading under the city rain I keep one light on by the empty line",
+        "start": 5760,
+        "duration": 17280
+      },
+      {
+        "id": "d03-phrase-02",
+        "documentId": "d03-lyric-main",
+        "text": "Every window carries a memory through the glass",
+        "start": 23040,
+        "duration": 11520
+      },
+      {
+        "id": "d03-phrase-03",
+        "documentId": "d03-lyric-main",
+        "text": "If tomorrow finds me standing where we were let the morning carry your name home",
+        "start": 34560,
+        "duration": 23040
+      },
+      {
+        "id": "d03-phrase-04",
+        "documentId": "d03-lyric-main",
+        "text": "Rails grow quiet but the light remains",
+        "start": 57600,
+        "duration": 11520
+      }
+    ],
+    "units": [
+      {
+        "id": "d03-unit-001",
+        "phraseId": "d03-phrase-01",
+        "text": "Last",
+        "start": 5760,
+        "duration": 1200
+      },
+      {
+        "id": "d03-unit-002",
+        "phraseId": "d03-phrase-01",
+        "text": "train",
+        "start": 7200,
+        "duration": 480
+      },
+      {
+        "id": "d03-unit-003",
+        "phraseId": "d03-phrase-01",
+        "text": "fading",
+        "start": 7920,
+        "duration": 600
+      },
+      {
+        "id": "d03-unit-004",
+        "phraseId": "d03-phrase-01",
+        "text": "under",
+        "start": 8640,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-005",
+        "phraseId": "d03-phrase-01",
+        "text": "the",
+        "start": 9600,
+        "duration": 1680
+      },
+      {
+        "id": "d03-unit-006",
+        "phraseId": "d03-phrase-01",
+        "text": "city",
+        "start": 11520,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-007",
+        "phraseId": "d03-phrase-01",
+        "text": "rain",
+        "start": 12480,
+        "duration": 600
+      },
+      {
+        "id": "d03-unit-008",
+        "phraseId": "d03-phrase-01",
+        "text": "I",
+        "start": 13440,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-009",
+        "phraseId": "d03-phrase-01",
+        "text": "keep",
+        "start": 14640,
+        "duration": 600
+      },
+      {
+        "id": "d03-unit-010",
+        "phraseId": "d03-phrase-01",
+        "text": "one",
+        "start": 15360,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-011",
+        "phraseId": "d03-phrase-01",
+        "text": "light",
+        "start": 16560,
+        "duration": 480
+      },
+      {
+        "id": "d03-unit-012",
+        "phraseId": "d03-phrase-01",
+        "text": "on",
+        "start": 17280,
+        "duration": 1920
+      },
+      {
+        "id": "d03-unit-013",
+        "phraseId": "d03-phrase-01",
+        "text": "by",
+        "start": 19440,
+        "duration": 600
+      },
+      {
+        "id": "d03-unit-014",
+        "phraseId": "d03-phrase-01",
+        "text": "the",
+        "start": 20160,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-015",
+        "phraseId": "d03-phrase-01",
+        "text": "empty",
+        "start": 21120,
+        "duration": 480
+      },
+      {
+        "id": "d03-unit-016",
+        "phraseId": "d03-phrase-01",
+        "text": "line",
+        "start": 21840,
+        "duration": 960
+      },
+      {
+        "id": "d03-unit-017",
+        "phraseId": "d03-phrase-02",
+        "text": "Every",
+        "start": 23040,
+        "duration": 1560
+      },
+      {
+        "id": "d03-unit-018",
+        "phraseId": "d03-phrase-02",
+        "text": "window",
+        "start": 24960,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-019",
+        "phraseId": "d03-phrase-02",
+        "text": "carries",
+        "start": 26160,
+        "duration": 600
+      },
+      {
+        "id": "d03-unit-020",
+        "phraseId": "d03-phrase-02",
+        "text": "a",
+        "start": 26880,
+        "duration": 1680
+      },
+      {
+        "id": "d03-unit-021",
+        "phraseId": "d03-phrase-02",
+        "text": "memory",
+        "start": 28800,
+        "duration": 1920
+      },
+      {
+        "id": "d03-unit-022",
+        "phraseId": "d03-phrase-02",
+        "text": "through",
+        "start": 30960,
+        "duration": 600
+      },
+      {
+        "id": "d03-unit-023",
+        "phraseId": "d03-phrase-02",
+        "text": "the",
+        "start": 31680,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-024",
+        "phraseId": "d03-phrase-02",
+        "text": "glass",
+        "start": 32640,
+        "duration": 1680
+      },
+      {
+        "id": "d03-unit-025",
+        "phraseId": "d03-phrase-03",
+        "text": "If",
+        "start": 34560,
+        "duration": 1560
+      },
+      {
+        "id": "d03-unit-026",
+        "phraseId": "d03-phrase-03",
+        "text": "tomorrow",
+        "start": 36480,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-027",
+        "phraseId": "d03-phrase-03",
+        "text": "finds",
+        "start": 37680,
+        "duration": 1440
+      },
+      {
+        "id": "d03-unit-028",
+        "phraseId": "d03-phrase-03",
+        "text": "me",
+        "start": 39600,
+        "duration": 480
+      },
+      {
+        "id": "d03-unit-029",
+        "phraseId": "d03-phrase-03",
+        "text": "standing",
+        "start": 40320,
+        "duration": 1920
+      },
+      {
+        "id": "d03-unit-030",
+        "phraseId": "d03-phrase-03",
+        "text": "where",
+        "start": 42480,
+        "duration": 1440
+      },
+      {
+        "id": "d03-unit-031",
+        "phraseId": "d03-phrase-03",
+        "text": "we",
+        "start": 44160,
+        "duration": 480
+      },
+      {
+        "id": "d03-unit-032",
+        "phraseId": "d03-phrase-03",
+        "text": "were",
+        "start": 44880,
+        "duration": 1920
+      },
+      {
+        "id": "d03-unit-033",
+        "phraseId": "d03-phrase-03",
+        "text": "let",
+        "start": 47040,
+        "duration": 600
+      },
+      {
+        "id": "d03-unit-034",
+        "phraseId": "d03-phrase-03",
+        "text": "the",
+        "start": 48000,
+        "duration": 1800
+      },
+      {
+        "id": "d03-unit-035",
+        "phraseId": "d03-phrase-03",
+        "text": "morning",
+        "start": 49920,
+        "duration": 1680
+      },
+      {
+        "id": "d03-unit-036",
+        "phraseId": "d03-phrase-03",
+        "text": "carry",
+        "start": 51840,
+        "duration": 1200
+      },
+      {
+        "id": "d03-unit-037",
+        "phraseId": "d03-phrase-03",
+        "text": "your",
+        "start": 53280,
+        "duration": 1320
+      },
+      {
+        "id": "d03-unit-038",
+        "phraseId": "d03-phrase-03",
+        "text": "name",
+        "start": 54720,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-039",
+        "phraseId": "d03-phrase-03",
+        "text": "home",
+        "start": 55680,
+        "duration": 1680
+      },
+      {
+        "id": "d03-unit-040",
+        "phraseId": "d03-phrase-04",
+        "text": "Rails",
+        "start": 57600,
+        "duration": 1200
+      },
+      {
+        "id": "d03-unit-041",
+        "phraseId": "d03-phrase-04",
+        "text": "grow",
+        "start": 59280,
+        "duration": 2040
+      },
+      {
+        "id": "d03-unit-042",
+        "phraseId": "d03-phrase-04",
+        "text": "quiet",
+        "start": 61440,
+        "duration": 720
+      },
+      {
+        "id": "d03-unit-043",
+        "phraseId": "d03-phrase-04",
+        "text": "but",
+        "start": 62640,
+        "duration": 1920
+      },
+      {
+        "id": "d03-unit-044",
+        "phraseId": "d03-phrase-04",
+        "text": "the",
+        "start": 65040,
+        "duration": 900
+      },
+      {
+        "id": "d03-unit-045",
+        "phraseId": "d03-phrase-04",
+        "text": "light",
+        "start": 66240,
+        "duration": 1440
+      },
+      {
+        "id": "d03-unit-046",
+        "phraseId": "d03-phrase-04",
+        "text": "remains",
+        "start": 67920,
+        "duration": 960
+      }
+    ],
+    "alignments": [
+      {
+        "id": "d03-align-0001",
+        "unitIds": [
+          "d03-unit-001"
+        ],
+        "noteIds": [
+          "d03-lead-n0001"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0002",
+        "unitIds": [
+          "d03-unit-002"
+        ],
+        "noteIds": [
+          "d03-lead-n0002"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0003",
+        "unitIds": [
+          "d03-unit-003"
+        ],
+        "noteIds": [
+          "d03-lead-n0003"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0004",
+        "unitIds": [
+          "d03-unit-004"
+        ],
+        "noteIds": [
+          "d03-lead-n0004"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0005",
+        "unitIds": [
+          "d03-unit-005"
+        ],
+        "noteIds": [
+          "d03-lead-n0005",
+          "d03-lead-n0006"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0006",
+        "unitIds": [
+          "d03-unit-006"
+        ],
+        "noteIds": [
+          "d03-lead-n0007"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0007",
+        "unitIds": [
+          "d03-unit-007"
+        ],
+        "noteIds": [
+          "d03-lead-n0008"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0008",
+        "unitIds": [
+          "d03-unit-008"
+        ],
+        "noteIds": [
+          "d03-lead-n0009"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0009",
+        "unitIds": [
+          "d03-unit-009"
+        ],
+        "noteIds": [
+          "d03-lead-n0010"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0010",
+        "unitIds": [
+          "d03-unit-010"
+        ],
+        "noteIds": [
+          "d03-lead-n0011"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0011",
+        "unitIds": [
+          "d03-unit-011"
+        ],
+        "noteIds": [
+          "d03-lead-n0012"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0012",
+        "unitIds": [
+          "d03-unit-012"
+        ],
+        "noteIds": [
+          "d03-lead-n0013",
+          "d03-lead-n0014"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0013",
+        "unitIds": [
+          "d03-unit-013"
+        ],
+        "noteIds": [
+          "d03-lead-n0015"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0014",
+        "unitIds": [
+          "d03-unit-014"
+        ],
+        "noteIds": [
+          "d03-lead-n0016"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0015",
+        "unitIds": [
+          "d03-unit-015"
+        ],
+        "noteIds": [
+          "d03-lead-n0017"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0016",
+        "unitIds": [
+          "d03-unit-016"
+        ],
+        "noteIds": [
+          "d03-lead-n0018"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0017",
+        "unitIds": [
+          "d03-unit-017"
+        ],
+        "noteIds": [
+          "d03-lead-n0019",
+          "d03-lead-n0020"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0018",
+        "unitIds": [
+          "d03-unit-018"
+        ],
+        "noteIds": [
+          "d03-lead-n0021"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0019",
+        "unitIds": [
+          "d03-unit-019"
+        ],
+        "noteIds": [
+          "d03-lead-n0022"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0020",
+        "unitIds": [
+          "d03-unit-020"
+        ],
+        "noteIds": [
+          "d03-lead-n0023",
+          "d03-lead-n0024"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0021",
+        "unitIds": [
+          "d03-unit-021"
+        ],
+        "noteIds": [
+          "d03-lead-n0025",
+          "d03-lead-n0026"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0022",
+        "unitIds": [
+          "d03-unit-022"
+        ],
+        "noteIds": [
+          "d03-lead-n0027"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0023",
+        "unitIds": [
+          "d03-unit-023"
+        ],
+        "noteIds": [
+          "d03-lead-n0028"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0024",
+        "unitIds": [
+          "d03-unit-024"
+        ],
+        "noteIds": [
+          "d03-lead-n0029",
+          "d03-lead-n0030"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0025",
+        "unitIds": [
+          "d03-unit-025"
+        ],
+        "noteIds": [
+          "d03-lead-n0031",
+          "d03-lead-n0032"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0026",
+        "unitIds": [
+          "d03-unit-026"
+        ],
+        "noteIds": [
+          "d03-lead-n0033"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0027",
+        "unitIds": [
+          "d03-unit-027"
+        ],
+        "noteIds": [
+          "d03-lead-n0034",
+          "d03-lead-n0035"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0028",
+        "unitIds": [
+          "d03-unit-028"
+        ],
+        "noteIds": [
+          "d03-lead-n0036"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0029",
+        "unitIds": [
+          "d03-unit-029"
+        ],
+        "noteIds": [
+          "d03-lead-n0037",
+          "d03-lead-n0038"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0030",
+        "unitIds": [
+          "d03-unit-030"
+        ],
+        "noteIds": [
+          "d03-lead-n0039",
+          "d03-lead-n0040"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0031",
+        "unitIds": [
+          "d03-unit-031"
+        ],
+        "noteIds": [
+          "d03-lead-n0041"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0032",
+        "unitIds": [
+          "d03-unit-032"
+        ],
+        "noteIds": [
+          "d03-lead-n0042",
+          "d03-lead-n0043"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0033",
+        "unitIds": [
+          "d03-unit-033"
+        ],
+        "noteIds": [
+          "d03-lead-n0044"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0034",
+        "unitIds": [
+          "d03-unit-034"
+        ],
+        "noteIds": [
+          "d03-lead-n0045",
+          "d03-lead-n0046"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0035",
+        "unitIds": [
+          "d03-unit-035"
+        ],
+        "noteIds": [
+          "d03-lead-n0047",
+          "d03-lead-n0048"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0036",
+        "unitIds": [
+          "d03-unit-036"
+        ],
+        "noteIds": [
+          "d03-lead-n0049"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0037",
+        "unitIds": [
+          "d03-unit-037"
+        ],
+        "noteIds": [
+          "d03-lead-n0050",
+          "d03-lead-n0051"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0038",
+        "unitIds": [
+          "d03-unit-038"
+        ],
+        "noteIds": [
+          "d03-lead-n0052"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0039",
+        "unitIds": [
+          "d03-unit-039"
+        ],
+        "noteIds": [
+          "d03-lead-n0053",
+          "d03-lead-n0054"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0040",
+        "unitIds": [
+          "d03-unit-040"
+        ],
+        "noteIds": [
+          "d03-lead-n0055"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0041",
+        "unitIds": [
+          "d03-unit-041"
+        ],
+        "noteIds": [
+          "d03-lead-n0056",
+          "d03-lead-n0057"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0042",
+        "unitIds": [
+          "d03-unit-042"
+        ],
+        "noteIds": [
+          "d03-lead-n0058"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0043",
+        "unitIds": [
+          "d03-unit-043"
+        ],
+        "noteIds": [
+          "d03-lead-n0059",
+          "d03-lead-n0060"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0044",
+        "unitIds": [
+          "d03-unit-044"
+        ],
+        "noteIds": [
+          "d03-lead-n0061"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0045",
+        "unitIds": [
+          "d03-unit-045"
+        ],
+        "noteIds": [
+          "d03-lead-n0062",
+          "d03-lead-n0063"
+        ],
+        "voiceId": "d03-voice-lead"
+      },
+      {
+        "id": "d03-align-0046",
+        "unitIds": [
+          "d03-unit-046"
+        ],
+        "noteIds": [
+          "d03-lead-n0064"
+        ],
+        "voiceId": "d03-voice-lead"
+      }
+    ],
+    "voices": [
+      {
+        "id": "d03-voice-lead",
+        "name": "Lead Vocal",
+        "role": "lead",
+        "trackId": "d03-lead",
+        "documentId": "d03-lyric-main"
+      }
+    ]
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "d03-bus-main",
+        "name": "Main MIDI"
+      }
+    ]
+  }
+}

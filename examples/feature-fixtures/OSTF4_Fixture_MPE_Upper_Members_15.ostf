@@ -1,0 +1,149 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "MPE upper zone with 15 member channels",
+    "description": "OSTF 4.0 feature fixture: MPE upper zone with 15 member channels.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-mpe-upper-15-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-mpe-upper-15-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-mpe-upper-15-track",
+    "melodyTrackIds": [
+      "fx-mpe-upper-15-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-mpe-upper-15-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-mpe-upper-15-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-mpe-upper-15-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-mpe-upper-15-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-mpe-upper-15-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96,
+              "channel": 15
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-mpe-upper-15-master",
+              "start": 0,
+              "type": "controlChange",
+              "channel": 16,
+              "controller": 11,
+              "value": 100
+            },
+            {
+              "id": "fx-mpe-upper-15-pb",
+              "start": 240,
+              "type": "pitchBend",
+              "channel": 15,
+              "targetNoteId": "fx-mpe-upper-15-n1",
+              "value14": 9000
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "mpe",
+        "busId": "fx-mpe-upper-15-bus",
+        "mpe": {
+          "zone": "upper",
+          "memberChannelCount": 15
+        }
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-mpe-upper-15-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}

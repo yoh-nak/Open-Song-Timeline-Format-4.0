@@ -1,0 +1,136 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Negative clip-local event start with nonnegative absolute time",
+    "description": "OSTF 4.0 feature fixture: Negative clip-local event start with nonnegative absolute time.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-negative-start-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-negative-start-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-negative-start-track",
+    "melodyTrackIds": [
+      "fx-negative-start-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-negative-start-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 4800,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 4800
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-negative-start-ch",
+        "start": 0,
+        "duration": 4800,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-negative-start-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-negative-start-clip",
+          "start": 960,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-negative-start-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-negative-start-cc",
+              "start": -480,
+              "type": "controlChange",
+              "controller": 11,
+              "value": 90
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "singleChannel",
+        "busId": "fx-negative-start-bus",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-negative-start-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}

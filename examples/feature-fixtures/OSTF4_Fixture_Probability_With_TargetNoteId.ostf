@@ -1,0 +1,138 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Targeted expression follows note probability scheduling",
+    "description": "OSTF 4.0 feature fixture: Targeted expression follows note probability scheduling.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-prob-target-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-prob-target-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-prob-target-track",
+    "melodyTrackIds": [
+      "fx-prob-target-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-prob-target-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-prob-target-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-prob-target-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-prob-target-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-prob-target-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96,
+              "probability": 0.5
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-prob-target-cc",
+              "start": 240,
+              "type": "controlChange",
+              "targetNoteId": "fx-prob-target-n1",
+              "controller": 74,
+              "value": 90
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "singleChannel",
+        "busId": "fx-prob-target-bus",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-prob-target-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}
