@@ -1,0 +1,135 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Program Change 0",
+    "description": "OSTF 4.0 feature fixture: Program Change 0.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-prg-0-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-prg-0-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-prg-0-track",
+    "melodyTrackIds": [
+      "fx-prg-0-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-prg-0-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-prg-0-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-prg-0-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-prg-0-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-prg-0-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-prg-0-pc",
+              "start": 0,
+              "type": "programChange",
+              "program": 0
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "singleChannel",
+        "busId": "fx-prg-0-bus",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-prg-0-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}

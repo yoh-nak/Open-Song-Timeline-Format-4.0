@@ -1,0 +1,181 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Multiple melodyTrackIds",
+    "description": "OSTF 4.0 musical demo: Multiple melodyTrackIds.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-melody-multiple-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-melody-multiple-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-melody-multiple-main",
+    "melodyTrackIds": [
+      "fx-melody-multiple-main",
+      "fx-melody-multiple-counter",
+      "fx-melody-multiple-obbl"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-melody-multiple-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-melody-multiple-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-melody-multiple-main",
+      "name": "Main",
+      "clips": [
+        {
+          "id": "fx-melody-multiple-main-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-melody-multiple-main-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 90,
+              "channel": 1
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "trackType": "melodic",
+      "midi": {
+        "busId": "fx-melody-multiple-bus-main",
+        "mode": "singleChannel",
+        "channel": 1
+      }
+    },
+    {
+      "id": "fx-melody-multiple-counter",
+      "name": "Counter",
+      "clips": [
+        {
+          "id": "fx-melody-multiple-counter-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-melody-multiple-counter-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 67,
+              "velocity": 90,
+              "channel": 2
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "trackType": "melodic",
+      "midi": {
+        "busId": "fx-melody-multiple-bus-main",
+        "mode": "singleChannel",
+        "channel": 2
+      }
+    },
+    {
+      "id": "fx-melody-multiple-obbl",
+      "name": "Obbl",
+      "clips": [
+        {
+          "id": "fx-melody-multiple-obbl-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-melody-multiple-obbl-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 72,
+              "velocity": 90,
+              "channel": 3
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "trackType": "melodic",
+      "midi": {
+        "busId": "fx-melody-multiple-bus-main",
+        "mode": "singleChannel",
+        "channel": 3
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-melody-multiple-bus-main",
+        "name": "Main MIDI"
+      }
+    ]
+  }
+}

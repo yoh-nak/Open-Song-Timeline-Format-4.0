@@ -1,0 +1,4824 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Glass Garden",
+    "description": "24-bar polyphonic MPE Lower Zone demo. Four simultaneous voices use distinct member channels with per-note bend, CC74 and channel pressure curves.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "lydian"
+    },
+    "genres": [
+      {
+        "id": "d07-genre-1",
+        "name": "Ambient"
+      },
+      {
+        "id": "d07-genre-2",
+        "name": "Electronic"
+      }
+    ],
+    "moods": [
+      {
+        "id": "d07-mood-1",
+        "name": "Floating"
+      },
+      {
+        "id": "d07-mood-2",
+        "name": "Luminous"
+      }
+    ],
+    "scale": {
+      "id": "d07-scale-global",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "label": "C Lydian"
+    },
+    "primaryMelodyTrackId": "d07-mpepad",
+    "melodyTrackIds": [
+      "d07-mpepad"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "d07-sec-bloom",
+        "name": "Bloom",
+        "start": 0,
+        "duration": 30720,
+        "role": "bloom"
+      },
+      {
+        "id": "d07-sec-drift",
+        "name": "Drift",
+        "start": 30720,
+        "duration": 30720,
+        "role": "drift"
+      },
+      {
+        "id": "d07-sec-return",
+        "name": "Return",
+        "start": 61440,
+        "duration": 30720,
+        "role": "return"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 84
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 92160,
+    "barOrigin": 0
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "d07-ch-01",
+        "start": 0,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-02",
+        "start": 3840,
+        "duration": 3840,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-03",
+        "start": 7680,
+        "duration": 3840,
+        "label": "Em7",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            64,
+            67,
+            71,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-04",
+        "start": 11520,
+        "duration": 3840,
+        "label": "Gmaj7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62,
+            66
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-05",
+        "start": 15360,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-06",
+        "start": 19200,
+        "duration": 3840,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-07",
+        "start": 23040,
+        "duration": 3840,
+        "label": "Em7",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            64,
+            67,
+            71,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-08",
+        "start": 26880,
+        "duration": 3840,
+        "label": "Gmaj7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62,
+            66
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-09",
+        "start": 30720,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-10",
+        "start": 34560,
+        "duration": 3840,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-11",
+        "start": 38400,
+        "duration": 3840,
+        "label": "Gmaj7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62,
+            66
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-12",
+        "start": 42240,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-13",
+        "start": 46080,
+        "duration": 3840,
+        "label": "Em7",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            64,
+            67,
+            71,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-14",
+        "start": 49920,
+        "duration": 3840,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-15",
+        "start": 53760,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-16",
+        "start": 57600,
+        "duration": 3840,
+        "label": "Gmaj7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62,
+            66
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-17",
+        "start": 61440,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-18",
+        "start": 65280,
+        "duration": 3840,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-19",
+        "start": 69120,
+        "duration": 3840,
+        "label": "Em7",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            64,
+            67,
+            71,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-20",
+        "start": 72960,
+        "duration": 3840,
+        "label": "Gmaj7",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            59,
+            62,
+            66
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-21",
+        "start": 76800,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-22",
+        "start": 80640,
+        "duration": 3840,
+        "label": "D",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            66,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-23",
+        "start": 84480,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d07-ch-24",
+        "start": 88320,
+        "duration": 3840,
+        "label": "Cmaj7",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            71
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      }
+    ],
+    "scales": [
+      {
+        "id": "d07-scale-01",
+        "start": 0,
+        "duration": 92160,
+        "label": "C Lydian",
+        "tonic": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          6,
+          7,
+          9,
+          11
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "d07-mpepad",
+      "name": "MPE Lower-Zone Pad",
+      "role": "melody",
+      "instrument": {
+        "name": "MPE Pad",
+        "family": "synth"
+      },
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "d07-mpepad-clip",
+          "name": "MPE Pad",
+          "start": 0,
+          "duration": 92160,
+          "notes": [
+            {
+              "id": "d07-mpepad-n0001",
+              "start": 120,
+              "duration": 3540,
+              "pitch": 60,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0002",
+              "start": 120,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0003",
+              "start": 120,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0004",
+              "start": 120,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0005",
+              "start": 3960,
+              "duration": 3540,
+              "pitch": 62,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0006",
+              "start": 3960,
+              "duration": 3540,
+              "pitch": 66,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0007",
+              "start": 3960,
+              "duration": 3540,
+              "pitch": 69,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0008",
+              "start": 3960,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0009",
+              "start": 7800,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0010",
+              "start": 7800,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0011",
+              "start": 7800,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0012",
+              "start": 7800,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0013",
+              "start": 11640,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0014",
+              "start": 11640,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0015",
+              "start": 11640,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0016",
+              "start": 11640,
+              "duration": 3540,
+              "pitch": 78,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0017",
+              "start": 15480,
+              "duration": 3540,
+              "pitch": 60,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0018",
+              "start": 15480,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0019",
+              "start": 15480,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0020",
+              "start": 15480,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0021",
+              "start": 19320,
+              "duration": 3540,
+              "pitch": 62,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0022",
+              "start": 19320,
+              "duration": 3540,
+              "pitch": 66,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0023",
+              "start": 19320,
+              "duration": 3540,
+              "pitch": 69,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0024",
+              "start": 19320,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0025",
+              "start": 23160,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0026",
+              "start": 23160,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0027",
+              "start": 23160,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0028",
+              "start": 23160,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0029",
+              "start": 27000,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0030",
+              "start": 27000,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0031",
+              "start": 27000,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0032",
+              "start": 27000,
+              "duration": 3540,
+              "pitch": 78,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0033",
+              "start": 30840,
+              "duration": 3540,
+              "pitch": 69,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0034",
+              "start": 30840,
+              "duration": 3540,
+              "pitch": 72,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0035",
+              "start": 30840,
+              "duration": 3540,
+              "pitch": 76,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0036",
+              "start": 30840,
+              "duration": 3540,
+              "pitch": 79,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0037",
+              "start": 34680,
+              "duration": 3540,
+              "pitch": 62,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0038",
+              "start": 34680,
+              "duration": 3540,
+              "pitch": 66,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0039",
+              "start": 34680,
+              "duration": 3540,
+              "pitch": 69,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0040",
+              "start": 34680,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0041",
+              "start": 38520,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0042",
+              "start": 38520,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0043",
+              "start": 38520,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0044",
+              "start": 38520,
+              "duration": 3540,
+              "pitch": 78,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0045",
+              "start": 42360,
+              "duration": 3540,
+              "pitch": 60,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0046",
+              "start": 42360,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0047",
+              "start": 42360,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0048",
+              "start": 42360,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0049",
+              "start": 46200,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0050",
+              "start": 46200,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0051",
+              "start": 46200,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0052",
+              "start": 46200,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0053",
+              "start": 50040,
+              "duration": 3540,
+              "pitch": 62,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0054",
+              "start": 50040,
+              "duration": 3540,
+              "pitch": 66,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0055",
+              "start": 50040,
+              "duration": 3540,
+              "pitch": 69,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0056",
+              "start": 50040,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0057",
+              "start": 53880,
+              "duration": 3540,
+              "pitch": 60,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0058",
+              "start": 53880,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0059",
+              "start": 53880,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0060",
+              "start": 53880,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0061",
+              "start": 57720,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0062",
+              "start": 57720,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0063",
+              "start": 57720,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0064",
+              "start": 57720,
+              "duration": 3540,
+              "pitch": 78,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0065",
+              "start": 61560,
+              "duration": 3540,
+              "pitch": 60,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0066",
+              "start": 61560,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0067",
+              "start": 61560,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0068",
+              "start": 61560,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0069",
+              "start": 65400,
+              "duration": 3540,
+              "pitch": 62,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0070",
+              "start": 65400,
+              "duration": 3540,
+              "pitch": 66,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0071",
+              "start": 65400,
+              "duration": 3540,
+              "pitch": 69,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0072",
+              "start": 65400,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0073",
+              "start": 69240,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0074",
+              "start": 69240,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0075",
+              "start": 69240,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0076",
+              "start": 69240,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0077",
+              "start": 73080,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0078",
+              "start": 73080,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0079",
+              "start": 73080,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0080",
+              "start": 73080,
+              "duration": 3540,
+              "pitch": 78,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0081",
+              "start": 76920,
+              "duration": 3540,
+              "pitch": 69,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0082",
+              "start": 76920,
+              "duration": 3540,
+              "pitch": 72,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0083",
+              "start": 76920,
+              "duration": 3540,
+              "pitch": 76,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0084",
+              "start": 76920,
+              "duration": 3540,
+              "pitch": 79,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0085",
+              "start": 80760,
+              "duration": 3540,
+              "pitch": 62,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0086",
+              "start": 80760,
+              "duration": 3540,
+              "pitch": 66,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0087",
+              "start": 80760,
+              "duration": 3540,
+              "pitch": 69,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0088",
+              "start": 80760,
+              "duration": 3540,
+              "pitch": 74,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0089",
+              "start": 84600,
+              "duration": 3540,
+              "pitch": 60,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0090",
+              "start": 84600,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0091",
+              "start": 84600,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0092",
+              "start": 84600,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 91,
+              "channel": 5
+            },
+            {
+              "id": "d07-mpepad-n0093",
+              "start": 88440,
+              "duration": 3540,
+              "pitch": 60,
+              "velocity": 70,
+              "channel": 2
+            },
+            {
+              "id": "d07-mpepad-n0094",
+              "start": 88440,
+              "duration": 3540,
+              "pitch": 64,
+              "velocity": 77,
+              "channel": 3
+            },
+            {
+              "id": "d07-mpepad-n0095",
+              "start": 88440,
+              "duration": 3540,
+              "pitch": 67,
+              "velocity": 84,
+              "channel": 4
+            },
+            {
+              "id": "d07-mpepad-n0096",
+              "start": 88440,
+              "duration": 3540,
+              "pitch": 71,
+              "velocity": 91,
+              "channel": 5
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "d07-mpepad-ev0001",
+              "start": 0,
+              "type": "programChange",
+              "channel": 1,
+              "program": 89
+            },
+            {
+              "id": "d07-mpepad-ev0002",
+              "start": 0,
+              "type": "controlChange",
+              "channel": 1,
+              "controller": 74,
+              "value": 64
+            },
+            {
+              "id": "d07-mpepad-ev0003",
+              "start": 480,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0001",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0007",
+              "start": 480,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0002",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0011",
+              "start": 480,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0003",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0015",
+              "start": 480,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0004",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0004",
+              "start": 1200,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0001",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0008",
+              "start": 1200,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0002",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0012",
+              "start": 1200,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0003",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0016",
+              "start": 1200,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0004",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0005",
+              "start": 2100,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0001",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0009",
+              "start": 2100,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0002",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0013",
+              "start": 2100,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0003",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0017",
+              "start": 2100,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0004",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0006",
+              "start": 3480,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0001",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0010",
+              "start": 3480,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0002",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0014",
+              "start": 3480,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0003",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0018",
+              "start": 3480,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0004",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0019",
+              "start": 4320,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0005",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0023",
+              "start": 4320,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0006",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0027",
+              "start": 4320,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0007",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0031",
+              "start": 4320,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0008",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0020",
+              "start": 5040,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0005",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0024",
+              "start": 5040,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0006",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0028",
+              "start": 5040,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0007",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0032",
+              "start": 5040,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0008",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0021",
+              "start": 5940,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0005",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0025",
+              "start": 5940,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0006",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0029",
+              "start": 5940,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0007",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0033",
+              "start": 5940,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0008",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0022",
+              "start": 7320,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0005",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0026",
+              "start": 7320,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0006",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0030",
+              "start": 7320,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0007",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0034",
+              "start": 7320,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0008",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0035",
+              "start": 8160,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0009",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0039",
+              "start": 8160,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0010",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0043",
+              "start": 8160,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0011",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0047",
+              "start": 8160,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0012",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0036",
+              "start": 8880,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0009",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0040",
+              "start": 8880,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0010",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0044",
+              "start": 8880,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0011",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0048",
+              "start": 8880,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0012",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0037",
+              "start": 9780,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0009",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0041",
+              "start": 9780,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0010",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0045",
+              "start": 9780,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0011",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0049",
+              "start": 9780,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0012",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0038",
+              "start": 11160,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0009",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0042",
+              "start": 11160,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0010",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0046",
+              "start": 11160,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0011",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0050",
+              "start": 11160,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0012",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0051",
+              "start": 12000,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0013",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0055",
+              "start": 12000,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0014",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0059",
+              "start": 12000,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0015",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0063",
+              "start": 12000,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0016",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0052",
+              "start": 12720,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0013",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0056",
+              "start": 12720,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0014",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0060",
+              "start": 12720,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0015",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0064",
+              "start": 12720,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0016",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0053",
+              "start": 13620,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0013",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0057",
+              "start": 13620,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0014",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0061",
+              "start": 13620,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0015",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0065",
+              "start": 13620,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0016",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0054",
+              "start": 15000,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0013",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0058",
+              "start": 15000,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0014",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0062",
+              "start": 15000,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0015",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0066",
+              "start": 15000,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0016",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0067",
+              "start": 15840,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0017",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0071",
+              "start": 15840,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0018",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0075",
+              "start": 15840,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0019",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0079",
+              "start": 15840,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0020",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0068",
+              "start": 16560,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0017",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0072",
+              "start": 16560,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0018",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0076",
+              "start": 16560,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0019",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0080",
+              "start": 16560,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0020",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0069",
+              "start": 17460,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0017",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0073",
+              "start": 17460,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0018",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0077",
+              "start": 17460,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0019",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0081",
+              "start": 17460,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0020",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0070",
+              "start": 18840,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0017",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0074",
+              "start": 18840,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0018",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0078",
+              "start": 18840,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0019",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0082",
+              "start": 18840,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0020",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0083",
+              "start": 19680,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0021",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0087",
+              "start": 19680,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0022",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0091",
+              "start": 19680,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0023",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0095",
+              "start": 19680,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0024",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0084",
+              "start": 20400,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0021",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0088",
+              "start": 20400,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0022",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0092",
+              "start": 20400,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0023",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0096",
+              "start": 20400,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0024",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0085",
+              "start": 21300,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0021",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0089",
+              "start": 21300,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0022",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0093",
+              "start": 21300,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0023",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0097",
+              "start": 21300,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0024",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0086",
+              "start": 22680,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0021",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0090",
+              "start": 22680,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0022",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0094",
+              "start": 22680,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0023",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0098",
+              "start": 22680,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0024",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0099",
+              "start": 23520,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0025",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0103",
+              "start": 23520,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0026",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0107",
+              "start": 23520,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0027",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0111",
+              "start": 23520,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0028",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0100",
+              "start": 24240,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0025",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0104",
+              "start": 24240,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0026",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0108",
+              "start": 24240,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0027",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0112",
+              "start": 24240,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0028",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0101",
+              "start": 25140,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0025",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0105",
+              "start": 25140,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0026",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0109",
+              "start": 25140,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0027",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0113",
+              "start": 25140,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0028",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0102",
+              "start": 26520,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0025",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0106",
+              "start": 26520,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0026",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0110",
+              "start": 26520,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0027",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0114",
+              "start": 26520,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0028",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0115",
+              "start": 27360,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0029",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0119",
+              "start": 27360,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0030",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0123",
+              "start": 27360,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0031",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0127",
+              "start": 27360,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0032",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0116",
+              "start": 28080,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0029",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0120",
+              "start": 28080,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0030",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0124",
+              "start": 28080,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0031",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0128",
+              "start": 28080,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0032",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0117",
+              "start": 28980,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0029",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0121",
+              "start": 28980,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0030",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0125",
+              "start": 28980,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0031",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0129",
+              "start": 28980,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0032",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0118",
+              "start": 30360,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0029",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0122",
+              "start": 30360,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0030",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0126",
+              "start": 30360,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0031",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0130",
+              "start": 30360,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0032",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0131",
+              "start": 31200,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0033",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0135",
+              "start": 31200,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0034",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0139",
+              "start": 31200,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0035",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0143",
+              "start": 31200,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0036",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0132",
+              "start": 31920,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0033",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0136",
+              "start": 31920,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0034",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0140",
+              "start": 31920,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0035",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0144",
+              "start": 31920,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0036",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0133",
+              "start": 32820,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0033",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0137",
+              "start": 32820,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0034",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0141",
+              "start": 32820,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0035",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0145",
+              "start": 32820,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0036",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0134",
+              "start": 34200,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0033",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0138",
+              "start": 34200,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0034",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0142",
+              "start": 34200,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0035",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0146",
+              "start": 34200,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0036",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0147",
+              "start": 35040,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0037",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0151",
+              "start": 35040,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0038",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0155",
+              "start": 35040,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0039",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0159",
+              "start": 35040,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0040",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0148",
+              "start": 35760,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0037",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0152",
+              "start": 35760,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0038",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0156",
+              "start": 35760,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0039",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0160",
+              "start": 35760,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0040",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0149",
+              "start": 36660,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0037",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0153",
+              "start": 36660,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0038",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0157",
+              "start": 36660,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0039",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0161",
+              "start": 36660,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0040",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0150",
+              "start": 38040,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0037",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0154",
+              "start": 38040,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0038",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0158",
+              "start": 38040,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0039",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0162",
+              "start": 38040,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0040",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0163",
+              "start": 38880,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0041",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0167",
+              "start": 38880,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0042",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0171",
+              "start": 38880,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0043",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0175",
+              "start": 38880,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0044",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0164",
+              "start": 39600,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0041",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0168",
+              "start": 39600,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0042",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0172",
+              "start": 39600,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0043",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0176",
+              "start": 39600,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0044",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0165",
+              "start": 40500,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0041",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0169",
+              "start": 40500,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0042",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0173",
+              "start": 40500,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0043",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0177",
+              "start": 40500,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0044",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0166",
+              "start": 41880,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0041",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0170",
+              "start": 41880,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0042",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0174",
+              "start": 41880,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0043",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0178",
+              "start": 41880,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0044",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0179",
+              "start": 42720,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0045",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0183",
+              "start": 42720,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0046",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0187",
+              "start": 42720,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0047",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0191",
+              "start": 42720,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0048",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0180",
+              "start": 43440,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0045",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0184",
+              "start": 43440,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0046",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0188",
+              "start": 43440,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0047",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0192",
+              "start": 43440,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0048",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0181",
+              "start": 44340,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0045",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0185",
+              "start": 44340,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0046",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0189",
+              "start": 44340,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0047",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0193",
+              "start": 44340,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0048",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0182",
+              "start": 45720,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0045",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0186",
+              "start": 45720,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0046",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0190",
+              "start": 45720,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0047",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0194",
+              "start": 45720,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0048",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0195",
+              "start": 46560,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0049",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0199",
+              "start": 46560,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0050",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0203",
+              "start": 46560,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0051",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0207",
+              "start": 46560,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0052",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0196",
+              "start": 47280,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0049",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0200",
+              "start": 47280,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0050",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0204",
+              "start": 47280,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0051",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0208",
+              "start": 47280,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0052",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0197",
+              "start": 48180,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0049",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0201",
+              "start": 48180,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0050",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0205",
+              "start": 48180,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0051",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0209",
+              "start": 48180,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0052",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0198",
+              "start": 49560,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0049",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0202",
+              "start": 49560,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0050",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0206",
+              "start": 49560,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0051",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0210",
+              "start": 49560,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0052",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0211",
+              "start": 50400,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0053",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0215",
+              "start": 50400,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0054",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0219",
+              "start": 50400,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0055",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0223",
+              "start": 50400,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0056",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0212",
+              "start": 51120,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0053",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0216",
+              "start": 51120,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0054",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0220",
+              "start": 51120,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0055",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0224",
+              "start": 51120,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0056",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0213",
+              "start": 52020,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0053",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0217",
+              "start": 52020,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0054",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0221",
+              "start": 52020,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0055",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0225",
+              "start": 52020,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0056",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0214",
+              "start": 53400,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0053",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0218",
+              "start": 53400,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0054",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0222",
+              "start": 53400,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0055",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0226",
+              "start": 53400,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0056",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0227",
+              "start": 54240,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0057",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0231",
+              "start": 54240,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0058",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0235",
+              "start": 54240,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0059",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0239",
+              "start": 54240,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0060",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0228",
+              "start": 54960,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0057",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0232",
+              "start": 54960,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0058",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0236",
+              "start": 54960,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0059",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0240",
+              "start": 54960,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0060",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0229",
+              "start": 55860,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0057",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0233",
+              "start": 55860,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0058",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0237",
+              "start": 55860,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0059",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0241",
+              "start": 55860,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0060",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0230",
+              "start": 57240,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0057",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0234",
+              "start": 57240,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0058",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0238",
+              "start": 57240,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0059",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0242",
+              "start": 57240,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0060",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0243",
+              "start": 58080,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0061",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0247",
+              "start": 58080,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0062",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0251",
+              "start": 58080,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0063",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0255",
+              "start": 58080,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0064",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0244",
+              "start": 58800,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0061",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0248",
+              "start": 58800,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0062",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0252",
+              "start": 58800,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0063",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0256",
+              "start": 58800,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0064",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0245",
+              "start": 59700,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0061",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0249",
+              "start": 59700,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0062",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0253",
+              "start": 59700,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0063",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0257",
+              "start": 59700,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0064",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0246",
+              "start": 61080,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0061",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0250",
+              "start": 61080,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0062",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0254",
+              "start": 61080,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0063",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0258",
+              "start": 61080,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0064",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0259",
+              "start": 61920,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0065",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0263",
+              "start": 61920,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0066",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0267",
+              "start": 61920,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0067",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0271",
+              "start": 61920,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0068",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0260",
+              "start": 62640,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0065",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0264",
+              "start": 62640,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0066",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0268",
+              "start": 62640,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0067",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0272",
+              "start": 62640,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0068",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0261",
+              "start": 63540,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0065",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0265",
+              "start": 63540,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0066",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0269",
+              "start": 63540,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0067",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0273",
+              "start": 63540,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0068",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0262",
+              "start": 64920,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0065",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0266",
+              "start": 64920,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0066",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0270",
+              "start": 64920,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0067",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0274",
+              "start": 64920,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0068",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0275",
+              "start": 65760,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0069",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0279",
+              "start": 65760,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0070",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0283",
+              "start": 65760,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0071",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0287",
+              "start": 65760,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0072",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0276",
+              "start": 66480,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0069",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0280",
+              "start": 66480,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0070",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0284",
+              "start": 66480,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0071",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0288",
+              "start": 66480,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0072",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0277",
+              "start": 67380,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0069",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0281",
+              "start": 67380,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0070",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0285",
+              "start": 67380,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0071",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0289",
+              "start": 67380,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0072",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0278",
+              "start": 68760,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0069",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0282",
+              "start": 68760,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0070",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0286",
+              "start": 68760,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0071",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0290",
+              "start": 68760,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0072",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0291",
+              "start": 69600,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0073",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0295",
+              "start": 69600,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0074",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0299",
+              "start": 69600,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0075",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0303",
+              "start": 69600,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0076",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0292",
+              "start": 70320,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0073",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0296",
+              "start": 70320,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0074",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0300",
+              "start": 70320,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0075",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0304",
+              "start": 70320,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0076",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0293",
+              "start": 71220,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0073",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0297",
+              "start": 71220,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0074",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0301",
+              "start": 71220,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0075",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0305",
+              "start": 71220,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0076",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0294",
+              "start": 72600,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0073",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0298",
+              "start": 72600,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0074",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0302",
+              "start": 72600,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0075",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0306",
+              "start": 72600,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0076",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0307",
+              "start": 73440,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0077",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0311",
+              "start": 73440,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0078",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0315",
+              "start": 73440,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0079",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0319",
+              "start": 73440,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0080",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0308",
+              "start": 74160,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0077",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0312",
+              "start": 74160,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0078",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0316",
+              "start": 74160,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0079",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0320",
+              "start": 74160,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0080",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0309",
+              "start": 75060,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0077",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0313",
+              "start": 75060,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0078",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0317",
+              "start": 75060,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0079",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0321",
+              "start": 75060,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0080",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0310",
+              "start": 76440,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0077",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0314",
+              "start": 76440,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0078",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0318",
+              "start": 76440,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0079",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0322",
+              "start": 76440,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0080",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0323",
+              "start": 77280,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0081",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0327",
+              "start": 77280,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0082",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0331",
+              "start": 77280,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0083",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0335",
+              "start": 77280,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0084",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0324",
+              "start": 78000,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0081",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0328",
+              "start": 78000,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0082",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0332",
+              "start": 78000,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0083",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0336",
+              "start": 78000,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0084",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0325",
+              "start": 78900,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0081",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0329",
+              "start": 78900,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0082",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0333",
+              "start": 78900,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0083",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0337",
+              "start": 78900,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0084",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0326",
+              "start": 80280,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0081",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0330",
+              "start": 80280,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0082",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0334",
+              "start": 80280,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0083",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0338",
+              "start": 80280,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0084",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0339",
+              "start": 81120,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0085",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0343",
+              "start": 81120,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0086",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0347",
+              "start": 81120,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0087",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0351",
+              "start": 81120,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0088",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0340",
+              "start": 81840,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0085",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0344",
+              "start": 81840,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0086",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0348",
+              "start": 81840,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0087",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0352",
+              "start": 81840,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0088",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0341",
+              "start": 82740,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0085",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0345",
+              "start": 82740,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0086",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0349",
+              "start": 82740,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0087",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0353",
+              "start": 82740,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0088",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0342",
+              "start": 84120,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0085",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0346",
+              "start": 84120,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0086",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0350",
+              "start": 84120,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0087",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0354",
+              "start": 84120,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0088",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0355",
+              "start": 84960,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0089",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0359",
+              "start": 84960,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0090",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0363",
+              "start": 84960,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0091",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0367",
+              "start": 84960,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0092",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0356",
+              "start": 85680,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0089",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0360",
+              "start": 85680,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0090",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0364",
+              "start": 85680,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0091",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0368",
+              "start": 85680,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0092",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0357",
+              "start": 86580,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0089",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0361",
+              "start": 86580,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0090",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0365",
+              "start": 86580,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0091",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0369",
+              "start": 86580,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0092",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0358",
+              "start": 87960,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0089",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0362",
+              "start": 87960,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0090",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0366",
+              "start": 87960,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0091",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0370",
+              "start": 87960,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0092",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0371",
+              "start": 88800,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0093",
+              "value14": 7680
+            },
+            {
+              "id": "d07-mpepad-ev0375",
+              "start": 88800,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0094",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0379",
+              "start": 88800,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0095",
+              "value14": 8704
+            },
+            {
+              "id": "d07-mpepad-ev0383",
+              "start": 88800,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0096",
+              "value14": 9216
+            },
+            {
+              "id": "d07-mpepad-ev0372",
+              "start": 89520,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0093",
+              "controller": 74,
+              "value": 58
+            },
+            {
+              "id": "d07-mpepad-ev0376",
+              "start": 89520,
+              "type": "controlChange",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0094",
+              "controller": 74,
+              "value": 72
+            },
+            {
+              "id": "d07-mpepad-ev0380",
+              "start": 89520,
+              "type": "controlChange",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0095",
+              "controller": 74,
+              "value": 86
+            },
+            {
+              "id": "d07-mpepad-ev0384",
+              "start": 89520,
+              "type": "controlChange",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0096",
+              "controller": 74,
+              "value": 100
+            },
+            {
+              "id": "d07-mpepad-ev0373",
+              "start": 90420,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0093",
+              "value": 52
+            },
+            {
+              "id": "d07-mpepad-ev0377",
+              "start": 90420,
+              "type": "channelPressure",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0094",
+              "value": 65
+            },
+            {
+              "id": "d07-mpepad-ev0381",
+              "start": 90420,
+              "type": "channelPressure",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0095",
+              "value": 78
+            },
+            {
+              "id": "d07-mpepad-ev0385",
+              "start": 90420,
+              "type": "channelPressure",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0096",
+              "value": 91
+            },
+            {
+              "id": "d07-mpepad-ev0374",
+              "start": 91800,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "d07-mpepad-n0093",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0378",
+              "start": 91800,
+              "type": "pitchBend",
+              "channel": 3,
+              "targetNoteId": "d07-mpepad-n0094",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0382",
+              "start": 91800,
+              "type": "pitchBend",
+              "channel": 4,
+              "targetNoteId": "d07-mpepad-n0095",
+              "value14": 8192
+            },
+            {
+              "id": "d07-mpepad-ev0386",
+              "start": 91800,
+              "type": "pitchBend",
+              "channel": 5,
+              "targetNoteId": "d07-mpepad-n0096",
+              "value14": 8192
+            }
+          ]
+        }
+      ],
+      "midi": {
+        "busId": "d07-bus-main",
+        "mode": "mpe",
+        "mpe": {
+          "zone": "lower",
+          "memberChannelCount": 7
+        }
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "d07-bus-main",
+        "name": "MPE Lower Bus"
+      }
+    ]
+  }
+}

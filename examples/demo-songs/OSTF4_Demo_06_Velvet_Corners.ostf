@@ -1,0 +1,6680 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Velvet Corners",
+    "description": "32-bar neo-soul demo with multiple melody-bearing tracks, interlocking counter melody, extended chord voicings and syncopated accompaniment.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "F",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "d06-genre-1",
+        "name": "Neo Soul"
+      },
+      {
+        "id": "d06-genre-2",
+        "name": "R&B"
+      }
+    ],
+    "moods": [
+      {
+        "id": "d06-mood-1",
+        "name": "Smooth"
+      },
+      {
+        "id": "d06-mood-2",
+        "name": "Intimate"
+      }
+    ],
+    "scale": {
+      "id": "d06-scale-global",
+      "tonic": {
+        "step": "F",
+        "alter": 0
+      },
+      "intervals": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "label": "F major"
+    },
+    "primaryMelodyTrackId": "d06-lead",
+    "melodyTrackIds": [
+      "d06-lead",
+      "d06-counter"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "d06-sec-verse",
+        "name": "Verse",
+        "start": 0,
+        "duration": 30720,
+        "role": "verse"
+      },
+      {
+        "id": "d06-sec-turn",
+        "name": "Turnaround",
+        "start": 30720,
+        "duration": 15360,
+        "role": "turn"
+      },
+      {
+        "id": "d06-sec-chorus",
+        "name": "Chorus",
+        "start": 46080,
+        "duration": 30720,
+        "role": "chorus"
+      },
+      {
+        "id": "d06-sec-bridge",
+        "name": "Bridge",
+        "start": 76800,
+        "duration": 15360,
+        "role": "bridge"
+      },
+      {
+        "id": "d06-sec-outro",
+        "name": "Outro",
+        "start": 92160,
+        "duration": 30720,
+        "role": "outro"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 92
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 122880,
+    "barOrigin": 0
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "d06-ch-01",
+        "start": 0,
+        "duration": 3840,
+        "label": "Fmaj9",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            65,
+            69,
+            72,
+            76,
+            79
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-02",
+        "start": 3840,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-03",
+        "start": 7680,
+        "duration": 3840,
+        "label": "Gm9",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-04",
+        "start": 11520,
+        "duration": 3840,
+        "label": "C9",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            70,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-05",
+        "start": 15360,
+        "duration": 3840,
+        "label": "Fmaj9",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            65,
+            69,
+            72,
+            76,
+            79
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-06",
+        "start": 19200,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-07",
+        "start": 23040,
+        "duration": 3840,
+        "label": "Gm9",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-08",
+        "start": 26880,
+        "duration": 3840,
+        "label": "C9",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            70,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-09",
+        "start": 30720,
+        "duration": 3840,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            65,
+            69,
+            72
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-10",
+        "start": 34560,
+        "duration": 3840,
+        "label": "Gm9",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-11",
+        "start": 38400,
+        "duration": 3840,
+        "label": "C9",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            70,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-12",
+        "start": 42240,
+        "duration": 3840,
+        "label": "Fmaj9",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            65,
+            69,
+            72,
+            76,
+            79
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-13",
+        "start": 46080,
+        "duration": 3840,
+        "label": "Bbmaj7",
+        "root": {
+          "step": "B",
+          "alter": -1
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-14",
+        "start": 49920,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-15",
+        "start": 53760,
+        "duration": 3840,
+        "label": "Gm9",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-16",
+        "start": 57600,
+        "duration": 3840,
+        "label": "C9",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            70,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-17",
+        "start": 61440,
+        "duration": 3840,
+        "label": "Bbmaj7",
+        "root": {
+          "step": "B",
+          "alter": -1
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-18",
+        "start": 65280,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-19",
+        "start": 69120,
+        "duration": 3840,
+        "label": "Gm9",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-20",
+        "start": 72960,
+        "duration": 3840,
+        "label": "C9",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            70,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-21",
+        "start": 76800,
+        "duration": 3840,
+        "label": "Dm7",
+        "root": {
+          "step": "D",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            62,
+            65,
+            69,
+            72
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-22",
+        "start": 80640,
+        "duration": 3840,
+        "label": "Em7",
+        "root": {
+          "step": "E",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            64,
+            67,
+            71,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-23",
+        "start": 84480,
+        "duration": 3840,
+        "label": "Gm9",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-24",
+        "start": 88320,
+        "duration": 3840,
+        "label": "C9",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            70,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-25",
+        "start": 92160,
+        "duration": 3840,
+        "label": "Fmaj9",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            65,
+            69,
+            72,
+            76,
+            79
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-26",
+        "start": 96000,
+        "duration": 3840,
+        "label": "Am7",
+        "root": {
+          "step": "A",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "voicing": {
+          "pitches": [
+            57,
+            60,
+            64,
+            67
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-27",
+        "start": 99840,
+        "duration": 3840,
+        "label": "Gm9",
+        "root": {
+          "step": "G",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          3,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            55,
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-28",
+        "start": 103680,
+        "duration": 3840,
+        "label": "C9",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            70,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-29",
+        "start": 107520,
+        "duration": 3840,
+        "label": "Bbmaj7",
+        "root": {
+          "step": "B",
+          "alter": -1
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11
+        ],
+        "voicing": {
+          "pitches": [
+            58,
+            62,
+            65,
+            69
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-30",
+        "start": 111360,
+        "duration": 3840,
+        "label": "C9",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          10,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            60,
+            64,
+            67,
+            70,
+            74
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-31",
+        "start": 115200,
+        "duration": 3840,
+        "label": "Fmaj9",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            65,
+            69,
+            72,
+            76,
+            79
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      },
+      {
+        "id": "d06-ch-32",
+        "start": 119040,
+        "duration": 3840,
+        "label": "Fmaj9",
+        "root": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7,
+          11,
+          14
+        ],
+        "voicing": {
+          "pitches": [
+            65,
+            69,
+            72,
+            76,
+            79
+          ],
+          "velocities": [
+            72,
+            77,
+            82,
+            75,
+            80
+          ]
+        }
+      }
+    ],
+    "scales": [
+      {
+        "id": "d06-scale-01",
+        "start": 0,
+        "duration": 122880,
+        "label": "F major",
+        "tonic": {
+          "step": "F",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          2,
+          4,
+          5,
+          7,
+          9,
+          11
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "id": "d06-lead",
+      "name": "Lead Keys",
+      "role": "melody",
+      "instrument": {
+        "name": "Electric Piano Lead",
+        "family": "keys"
+      },
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "d06-lead-clip",
+          "name": "Lead",
+          "start": 0,
+          "duration": 122880,
+          "notes": [
+            {
+              "id": "d06-lead-n0001",
+              "start": 240,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0002",
+              "start": 960,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0003",
+              "start": 1680,
+              "duration": 600,
+              "pitch": 86,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0004",
+              "start": 2640,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0005",
+              "start": 3840,
+              "duration": 1200,
+              "pitch": 82,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0006",
+              "start": 5520,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0007",
+              "start": 6240,
+              "duration": 960,
+              "pitch": 88,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0008",
+              "start": 7680,
+              "duration": 840,
+              "pitch": 86,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0009",
+              "start": 8880,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0010",
+              "start": 9600,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0011",
+              "start": 10320,
+              "duration": 840,
+              "pitch": 79,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0012",
+              "start": 11520,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0013",
+              "start": 12240,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0014",
+              "start": 12960,
+              "duration": 720,
+              "pitch": 84,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0015",
+              "start": 13920,
+              "duration": 600,
+              "pitch": 82,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0016",
+              "start": 14640,
+              "duration": 540,
+              "pitch": 81,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0017",
+              "start": 15600,
+              "duration": 960,
+              "pitch": 84,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0018",
+              "start": 17280,
+              "duration": 720,
+              "pitch": 88,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0019",
+              "start": 18240,
+              "duration": 720,
+              "pitch": 86,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0020",
+              "start": 19200,
+              "duration": 480,
+              "pitch": 81,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0021",
+              "start": 19680,
+              "duration": 480,
+              "pitch": 79,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0022",
+              "start": 20400,
+              "duration": 720,
+              "pitch": 77,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0023",
+              "start": 23280,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0024",
+              "start": 24000,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0025",
+              "start": 24720,
+              "duration": 600,
+              "pitch": 86,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0026",
+              "start": 25680,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0027",
+              "start": 26880,
+              "duration": 1200,
+              "pitch": 82,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0028",
+              "start": 28560,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0029",
+              "start": 29280,
+              "duration": 960,
+              "pitch": 88,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0030",
+              "start": 30720,
+              "duration": 840,
+              "pitch": 86,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0031",
+              "start": 31920,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0032",
+              "start": 32640,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0033",
+              "start": 33360,
+              "duration": 840,
+              "pitch": 79,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0034",
+              "start": 34560,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0035",
+              "start": 35280,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0036",
+              "start": 36000,
+              "duration": 720,
+              "pitch": 84,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0037",
+              "start": 36960,
+              "duration": 600,
+              "pitch": 82,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0038",
+              "start": 37680,
+              "duration": 540,
+              "pitch": 81,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0039",
+              "start": 38640,
+              "duration": 960,
+              "pitch": 84,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0040",
+              "start": 40320,
+              "duration": 720,
+              "pitch": 88,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0041",
+              "start": 41280,
+              "duration": 720,
+              "pitch": 86,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0042",
+              "start": 42240,
+              "duration": 480,
+              "pitch": 81,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0043",
+              "start": 42720,
+              "duration": 480,
+              "pitch": 79,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0044",
+              "start": 43440,
+              "duration": 720,
+              "pitch": 77,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0045",
+              "start": 46320,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0046",
+              "start": 47040,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0047",
+              "start": 47760,
+              "duration": 600,
+              "pitch": 86,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0048",
+              "start": 48720,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0049",
+              "start": 49920,
+              "duration": 1200,
+              "pitch": 82,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0050",
+              "start": 51600,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0051",
+              "start": 52320,
+              "duration": 960,
+              "pitch": 88,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0052",
+              "start": 53760,
+              "duration": 840,
+              "pitch": 86,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0053",
+              "start": 54960,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0054",
+              "start": 55680,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0055",
+              "start": 56400,
+              "duration": 840,
+              "pitch": 79,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0056",
+              "start": 57600,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0057",
+              "start": 58320,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0058",
+              "start": 59040,
+              "duration": 720,
+              "pitch": 84,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0059",
+              "start": 60000,
+              "duration": 600,
+              "pitch": 82,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0060",
+              "start": 60720,
+              "duration": 540,
+              "pitch": 81,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0061",
+              "start": 61680,
+              "duration": 960,
+              "pitch": 84,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0062",
+              "start": 63360,
+              "duration": 720,
+              "pitch": 88,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0063",
+              "start": 64320,
+              "duration": 720,
+              "pitch": 86,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0064",
+              "start": 65280,
+              "duration": 480,
+              "pitch": 81,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0065",
+              "start": 65760,
+              "duration": 480,
+              "pitch": 79,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0066",
+              "start": 66480,
+              "duration": 720,
+              "pitch": 77,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0067",
+              "start": 69360,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0068",
+              "start": 70080,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0069",
+              "start": 70800,
+              "duration": 600,
+              "pitch": 86,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0070",
+              "start": 71760,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0071",
+              "start": 72960,
+              "duration": 1200,
+              "pitch": 82,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0072",
+              "start": 74640,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0073",
+              "start": 75360,
+              "duration": 960,
+              "pitch": 88,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0074",
+              "start": 76800,
+              "duration": 840,
+              "pitch": 86,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0075",
+              "start": 78000,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0076",
+              "start": 78720,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0077",
+              "start": 79440,
+              "duration": 840,
+              "pitch": 79,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0078",
+              "start": 80640,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0079",
+              "start": 81360,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0080",
+              "start": 82080,
+              "duration": 720,
+              "pitch": 84,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0081",
+              "start": 83040,
+              "duration": 600,
+              "pitch": 82,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0082",
+              "start": 83760,
+              "duration": 540,
+              "pitch": 81,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0083",
+              "start": 84720,
+              "duration": 960,
+              "pitch": 84,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0084",
+              "start": 86400,
+              "duration": 720,
+              "pitch": 88,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0085",
+              "start": 87360,
+              "duration": 720,
+              "pitch": 86,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0086",
+              "start": 88320,
+              "duration": 480,
+              "pitch": 81,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0087",
+              "start": 88800,
+              "duration": 480,
+              "pitch": 79,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0088",
+              "start": 89520,
+              "duration": 720,
+              "pitch": 77,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0089",
+              "start": 92400,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0090",
+              "start": 93120,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0091",
+              "start": 93840,
+              "duration": 600,
+              "pitch": 86,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0092",
+              "start": 94800,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0093",
+              "start": 96000,
+              "duration": 1200,
+              "pitch": 82,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0094",
+              "start": 97680,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0095",
+              "start": 98400,
+              "duration": 960,
+              "pitch": 88,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0096",
+              "start": 99840,
+              "duration": 840,
+              "pitch": 86,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0097",
+              "start": 101040,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0098",
+              "start": 101760,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0099",
+              "start": 102480,
+              "duration": 840,
+              "pitch": 79,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0100",
+              "start": 103680,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0101",
+              "start": 104400,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0102",
+              "start": 105120,
+              "duration": 720,
+              "pitch": 84,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0103",
+              "start": 106080,
+              "duration": 600,
+              "pitch": 82,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0104",
+              "start": 106800,
+              "duration": 540,
+              "pitch": 81,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0105",
+              "start": 107760,
+              "duration": 960,
+              "pitch": 84,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0106",
+              "start": 109440,
+              "duration": 720,
+              "pitch": 88,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0107",
+              "start": 110400,
+              "duration": 720,
+              "pitch": 86,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0108",
+              "start": 111360,
+              "duration": 480,
+              "pitch": 81,
+              "velocity": 94,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0109",
+              "start": 111840,
+              "duration": 480,
+              "pitch": 79,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0110",
+              "start": 112560,
+              "duration": 720,
+              "pitch": 77,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0111",
+              "start": 115440,
+              "duration": 600,
+              "pitch": 81,
+              "velocity": 82,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0112",
+              "start": 116160,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0113",
+              "start": 116880,
+              "duration": 600,
+              "pitch": 86,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0114",
+              "start": 117840,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 91,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0115",
+              "start": 119040,
+              "duration": 1200,
+              "pitch": 82,
+              "velocity": 85,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0116",
+              "start": 120720,
+              "duration": 480,
+              "pitch": 84,
+              "velocity": 88,
+              "channel": 1
+            },
+            {
+              "id": "d06-lead-n0117",
+              "start": 121440,
+              "duration": 960,
+              "pitch": 88,
+              "velocity": 91,
+              "channel": 1
+            }
+          ]
+        }
+      ],
+      "midi": {
+        "busId": "d06-bus-main",
+        "mode": "singleChannel",
+        "channel": 1
+      }
+    },
+    {
+      "id": "d06-counter",
+      "name": "Counter Melody",
+      "role": "counter-melody",
+      "instrument": {
+        "name": "Muted Synth",
+        "family": "synth"
+      },
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "d06-counter-clip",
+          "name": "Counter",
+          "start": 0,
+          "duration": 122880,
+          "notes": [
+            {
+              "id": "d06-counter-n0001",
+              "start": 5760,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0002",
+              "start": 6480,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0003",
+              "start": 7200,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0004",
+              "start": 13440,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0005",
+              "start": 14160,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0006",
+              "start": 14880,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0007",
+              "start": 21120,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0008",
+              "start": 21840,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0009",
+              "start": 22560,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0010",
+              "start": 28800,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0011",
+              "start": 29520,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0012",
+              "start": 30240,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0013",
+              "start": 36480,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0014",
+              "start": 37200,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0015",
+              "start": 37920,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0016",
+              "start": 44160,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0017",
+              "start": 44880,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0018",
+              "start": 45600,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0019",
+              "start": 48000,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0020",
+              "start": 48720,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0021",
+              "start": 49440,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0022",
+              "start": 51840,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0023",
+              "start": 52560,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0024",
+              "start": 53280,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0025",
+              "start": 55680,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0026",
+              "start": 56400,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0027",
+              "start": 57120,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0028",
+              "start": 59520,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0029",
+              "start": 60240,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0030",
+              "start": 60960,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0031",
+              "start": 63360,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0032",
+              "start": 64080,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0033",
+              "start": 64800,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0034",
+              "start": 67200,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0035",
+              "start": 67920,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0036",
+              "start": 68640,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0037",
+              "start": 71040,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0038",
+              "start": 71760,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0039",
+              "start": 72480,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0040",
+              "start": 74880,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0041",
+              "start": 75600,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0042",
+              "start": 76320,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0043",
+              "start": 78720,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0044",
+              "start": 79440,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0045",
+              "start": 80160,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0046",
+              "start": 82560,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0047",
+              "start": 83280,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0048",
+              "start": 84000,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0049",
+              "start": 86400,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0050",
+              "start": 87120,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0051",
+              "start": 87840,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0052",
+              "start": 90240,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0053",
+              "start": 90960,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0054",
+              "start": 91680,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0055",
+              "start": 94080,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0056",
+              "start": 94800,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0057",
+              "start": 95520,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0058",
+              "start": 97920,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0059",
+              "start": 98640,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0060",
+              "start": 99360,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0061",
+              "start": 101760,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0062",
+              "start": 102480,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0063",
+              "start": 103200,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0064",
+              "start": 105600,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0065",
+              "start": 106320,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0066",
+              "start": 107040,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0067",
+              "start": 109440,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0068",
+              "start": 110160,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0069",
+              "start": 110880,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0070",
+              "start": 113280,
+              "duration": 420,
+              "pitch": 65,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0071",
+              "start": 114000,
+              "duration": 420,
+              "pitch": 69,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0072",
+              "start": 114720,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0073",
+              "start": 117120,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0074",
+              "start": 117840,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0075",
+              "start": 118560,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0076",
+              "start": 120960,
+              "duration": 420,
+              "pitch": 72,
+              "velocity": 72,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0077",
+              "start": 121680,
+              "duration": 420,
+              "pitch": 70,
+              "velocity": 77,
+              "channel": 2
+            },
+            {
+              "id": "d06-counter-n0078",
+              "start": 122400,
+              "duration": 420,
+              "pitch": 67,
+              "velocity": 82,
+              "channel": 2
+            }
+          ]
+        }
+      ],
+      "midi": {
+        "busId": "d06-bus-main",
+        "mode": "singleChannel",
+        "channel": 2
+      }
+    },
+    {
+      "id": "d06-keys",
+      "name": "Neo Soul Keys",
+      "role": "harmony",
+      "instrument": {
+        "name": "Electric Piano",
+        "family": "keys"
+      },
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "d06-keys-clip",
+          "name": "Keys",
+          "start": 0,
+          "duration": 122880,
+          "notes": [
+            {
+              "id": "d06-keys-n0001",
+              "start": 0,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0002",
+              "start": 0,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0003",
+              "start": 0,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0004",
+              "start": 0,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0005",
+              "start": 1440,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0006",
+              "start": 1440,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0007",
+              "start": 1440,
+              "duration": 600,
+              "pitch": 76,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0008",
+              "start": 1440,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0009",
+              "start": 2880,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0010",
+              "start": 2880,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0011",
+              "start": 2880,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0012",
+              "start": 2880,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0013",
+              "start": 3840,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0014",
+              "start": 3840,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0015",
+              "start": 3840,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0016",
+              "start": 5280,
+              "duration": 600,
+              "pitch": 60,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0017",
+              "start": 5280,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0018",
+              "start": 5280,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0019",
+              "start": 6720,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0020",
+              "start": 6720,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0021",
+              "start": 6720,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0022",
+              "start": 7680,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0023",
+              "start": 7680,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0024",
+              "start": 7680,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0025",
+              "start": 7680,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0026",
+              "start": 9120,
+              "duration": 600,
+              "pitch": 58,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0027",
+              "start": 9120,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0028",
+              "start": 9120,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0029",
+              "start": 9120,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0030",
+              "start": 10560,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0031",
+              "start": 10560,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0032",
+              "start": 10560,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0033",
+              "start": 10560,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0034",
+              "start": 11520,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0035",
+              "start": 11520,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0036",
+              "start": 11520,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0037",
+              "start": 11520,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0038",
+              "start": 12960,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0039",
+              "start": 12960,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0040",
+              "start": 12960,
+              "duration": 600,
+              "pitch": 70,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0041",
+              "start": 12960,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0042",
+              "start": 14400,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0043",
+              "start": 14400,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0044",
+              "start": 14400,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0045",
+              "start": 14400,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0046",
+              "start": 15360,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0047",
+              "start": 15360,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0048",
+              "start": 15360,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0049",
+              "start": 15360,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0050",
+              "start": 16800,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0051",
+              "start": 16800,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0052",
+              "start": 16800,
+              "duration": 600,
+              "pitch": 76,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0053",
+              "start": 16800,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0054",
+              "start": 18240,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0055",
+              "start": 18240,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0056",
+              "start": 18240,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0057",
+              "start": 18240,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0058",
+              "start": 19200,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0059",
+              "start": 19200,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0060",
+              "start": 19200,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0061",
+              "start": 20640,
+              "duration": 600,
+              "pitch": 60,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0062",
+              "start": 20640,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0063",
+              "start": 20640,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0064",
+              "start": 22080,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0065",
+              "start": 22080,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0066",
+              "start": 22080,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0067",
+              "start": 23040,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0068",
+              "start": 23040,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0069",
+              "start": 23040,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0070",
+              "start": 23040,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0071",
+              "start": 24480,
+              "duration": 600,
+              "pitch": 58,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0072",
+              "start": 24480,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0073",
+              "start": 24480,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0074",
+              "start": 24480,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0075",
+              "start": 25920,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0076",
+              "start": 25920,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0077",
+              "start": 25920,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0078",
+              "start": 25920,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0079",
+              "start": 26880,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0080",
+              "start": 26880,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0081",
+              "start": 26880,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0082",
+              "start": 26880,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0083",
+              "start": 28320,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0084",
+              "start": 28320,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0085",
+              "start": 28320,
+              "duration": 600,
+              "pitch": 70,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0086",
+              "start": 28320,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0087",
+              "start": 29760,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0088",
+              "start": 29760,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0089",
+              "start": 29760,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0090",
+              "start": 29760,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0091",
+              "start": 30720,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0092",
+              "start": 30720,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0093",
+              "start": 30720,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0094",
+              "start": 32160,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0095",
+              "start": 32160,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0096",
+              "start": 32160,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0097",
+              "start": 33600,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0098",
+              "start": 33600,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0099",
+              "start": 33600,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0100",
+              "start": 34560,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0101",
+              "start": 34560,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0102",
+              "start": 34560,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0103",
+              "start": 34560,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0104",
+              "start": 36000,
+              "duration": 600,
+              "pitch": 58,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0105",
+              "start": 36000,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0106",
+              "start": 36000,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0107",
+              "start": 36000,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0108",
+              "start": 37440,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0109",
+              "start": 37440,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0110",
+              "start": 37440,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0111",
+              "start": 37440,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0112",
+              "start": 38400,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0113",
+              "start": 38400,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0114",
+              "start": 38400,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0115",
+              "start": 38400,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0116",
+              "start": 39840,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0117",
+              "start": 39840,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0118",
+              "start": 39840,
+              "duration": 600,
+              "pitch": 70,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0119",
+              "start": 39840,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0120",
+              "start": 41280,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0121",
+              "start": 41280,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0122",
+              "start": 41280,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0123",
+              "start": 41280,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0124",
+              "start": 42240,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0125",
+              "start": 42240,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0126",
+              "start": 42240,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0127",
+              "start": 42240,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0128",
+              "start": 43680,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0129",
+              "start": 43680,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0130",
+              "start": 43680,
+              "duration": 600,
+              "pitch": 76,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0131",
+              "start": 43680,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0132",
+              "start": 45120,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0133",
+              "start": 45120,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0134",
+              "start": 45120,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0135",
+              "start": 45120,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0136",
+              "start": 46080,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0137",
+              "start": 46080,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0138",
+              "start": 46080,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0139",
+              "start": 47520,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0140",
+              "start": 47520,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0141",
+              "start": 47520,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0142",
+              "start": 48960,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0143",
+              "start": 48960,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0144",
+              "start": 48960,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0145",
+              "start": 49920,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0146",
+              "start": 49920,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0147",
+              "start": 49920,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0148",
+              "start": 51360,
+              "duration": 600,
+              "pitch": 60,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0149",
+              "start": 51360,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0150",
+              "start": 51360,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0151",
+              "start": 52800,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0152",
+              "start": 52800,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0153",
+              "start": 52800,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0154",
+              "start": 53760,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0155",
+              "start": 53760,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0156",
+              "start": 53760,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0157",
+              "start": 53760,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0158",
+              "start": 55200,
+              "duration": 600,
+              "pitch": 58,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0159",
+              "start": 55200,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0160",
+              "start": 55200,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0161",
+              "start": 55200,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0162",
+              "start": 56640,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0163",
+              "start": 56640,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0164",
+              "start": 56640,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0165",
+              "start": 56640,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0166",
+              "start": 57600,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0167",
+              "start": 57600,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0168",
+              "start": 57600,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0169",
+              "start": 57600,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0170",
+              "start": 59040,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0171",
+              "start": 59040,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0172",
+              "start": 59040,
+              "duration": 600,
+              "pitch": 70,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0173",
+              "start": 59040,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0174",
+              "start": 60480,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0175",
+              "start": 60480,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0176",
+              "start": 60480,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0177",
+              "start": 60480,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0178",
+              "start": 61440,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0179",
+              "start": 61440,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0180",
+              "start": 61440,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0181",
+              "start": 62880,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0182",
+              "start": 62880,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0183",
+              "start": 62880,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0184",
+              "start": 64320,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0185",
+              "start": 64320,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0186",
+              "start": 64320,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0187",
+              "start": 65280,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0188",
+              "start": 65280,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0189",
+              "start": 65280,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0190",
+              "start": 66720,
+              "duration": 600,
+              "pitch": 60,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0191",
+              "start": 66720,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0192",
+              "start": 66720,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0193",
+              "start": 68160,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0194",
+              "start": 68160,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0195",
+              "start": 68160,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0196",
+              "start": 69120,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0197",
+              "start": 69120,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0198",
+              "start": 69120,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0199",
+              "start": 69120,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0200",
+              "start": 70560,
+              "duration": 600,
+              "pitch": 58,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0201",
+              "start": 70560,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0202",
+              "start": 70560,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0203",
+              "start": 70560,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0204",
+              "start": 72000,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0205",
+              "start": 72000,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0206",
+              "start": 72000,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0207",
+              "start": 72000,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0208",
+              "start": 72960,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0209",
+              "start": 72960,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0210",
+              "start": 72960,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0211",
+              "start": 72960,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0212",
+              "start": 74400,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0213",
+              "start": 74400,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0214",
+              "start": 74400,
+              "duration": 600,
+              "pitch": 70,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0215",
+              "start": 74400,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0216",
+              "start": 75840,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0217",
+              "start": 75840,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0218",
+              "start": 75840,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0219",
+              "start": 75840,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0220",
+              "start": 76800,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0221",
+              "start": 76800,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0222",
+              "start": 76800,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0223",
+              "start": 78240,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0224",
+              "start": 78240,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0225",
+              "start": 78240,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0226",
+              "start": 79680,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0227",
+              "start": 79680,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0228",
+              "start": 79680,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0229",
+              "start": 80640,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0230",
+              "start": 80640,
+              "duration": 720,
+              "pitch": 71,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0231",
+              "start": 80640,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0232",
+              "start": 82080,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0233",
+              "start": 82080,
+              "duration": 600,
+              "pitch": 71,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0234",
+              "start": 82080,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0235",
+              "start": 83520,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0236",
+              "start": 83520,
+              "duration": 720,
+              "pitch": 71,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0237",
+              "start": 83520,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0238",
+              "start": 84480,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0239",
+              "start": 84480,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0240",
+              "start": 84480,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0241",
+              "start": 84480,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0242",
+              "start": 85920,
+              "duration": 600,
+              "pitch": 58,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0243",
+              "start": 85920,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0244",
+              "start": 85920,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0245",
+              "start": 85920,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0246",
+              "start": 87360,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0247",
+              "start": 87360,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0248",
+              "start": 87360,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0249",
+              "start": 87360,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0250",
+              "start": 88320,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0251",
+              "start": 88320,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0252",
+              "start": 88320,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0253",
+              "start": 88320,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0254",
+              "start": 89760,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0255",
+              "start": 89760,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0256",
+              "start": 89760,
+              "duration": 600,
+              "pitch": 70,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0257",
+              "start": 89760,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0258",
+              "start": 91200,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0259",
+              "start": 91200,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0260",
+              "start": 91200,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0261",
+              "start": 91200,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0262",
+              "start": 92160,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0263",
+              "start": 92160,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0264",
+              "start": 92160,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0265",
+              "start": 92160,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0266",
+              "start": 93600,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0267",
+              "start": 93600,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0268",
+              "start": 93600,
+              "duration": 600,
+              "pitch": 76,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0269",
+              "start": 93600,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0270",
+              "start": 95040,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0271",
+              "start": 95040,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0272",
+              "start": 95040,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0273",
+              "start": 95040,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0274",
+              "start": 96000,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0275",
+              "start": 96000,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0276",
+              "start": 96000,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0277",
+              "start": 97440,
+              "duration": 600,
+              "pitch": 60,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0278",
+              "start": 97440,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0279",
+              "start": 97440,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0280",
+              "start": 98880,
+              "duration": 720,
+              "pitch": 60,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0281",
+              "start": 98880,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0282",
+              "start": 98880,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0283",
+              "start": 99840,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0284",
+              "start": 99840,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0285",
+              "start": 99840,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0286",
+              "start": 99840,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0287",
+              "start": 101280,
+              "duration": 600,
+              "pitch": 58,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0288",
+              "start": 101280,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0289",
+              "start": 101280,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0290",
+              "start": 101280,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0291",
+              "start": 102720,
+              "duration": 720,
+              "pitch": 58,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0292",
+              "start": 102720,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0293",
+              "start": 102720,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0294",
+              "start": 102720,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0295",
+              "start": 103680,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0296",
+              "start": 103680,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0297",
+              "start": 103680,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0298",
+              "start": 103680,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0299",
+              "start": 105120,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0300",
+              "start": 105120,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0301",
+              "start": 105120,
+              "duration": 600,
+              "pitch": 70,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0302",
+              "start": 105120,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0303",
+              "start": 106560,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0304",
+              "start": 106560,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0305",
+              "start": 106560,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0306",
+              "start": 106560,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0307",
+              "start": 107520,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0308",
+              "start": 107520,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0309",
+              "start": 107520,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0310",
+              "start": 108960,
+              "duration": 600,
+              "pitch": 62,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0311",
+              "start": 108960,
+              "duration": 600,
+              "pitch": 65,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0312",
+              "start": 108960,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0313",
+              "start": 110400,
+              "duration": 720,
+              "pitch": 62,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0314",
+              "start": 110400,
+              "duration": 720,
+              "pitch": 65,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0315",
+              "start": 110400,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0316",
+              "start": 111360,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0317",
+              "start": 111360,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0318",
+              "start": 111360,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0319",
+              "start": 111360,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0320",
+              "start": 112800,
+              "duration": 600,
+              "pitch": 64,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0321",
+              "start": 112800,
+              "duration": 600,
+              "pitch": 67,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0322",
+              "start": 112800,
+              "duration": 600,
+              "pitch": 70,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0323",
+              "start": 112800,
+              "duration": 600,
+              "pitch": 74,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0324",
+              "start": 114240,
+              "duration": 720,
+              "pitch": 64,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0325",
+              "start": 114240,
+              "duration": 720,
+              "pitch": 67,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0326",
+              "start": 114240,
+              "duration": 720,
+              "pitch": 70,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0327",
+              "start": 114240,
+              "duration": 720,
+              "pitch": 74,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0328",
+              "start": 115200,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0329",
+              "start": 115200,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0330",
+              "start": 115200,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0331",
+              "start": 115200,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0332",
+              "start": 116640,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0333",
+              "start": 116640,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0334",
+              "start": 116640,
+              "duration": 600,
+              "pitch": 76,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0335",
+              "start": 116640,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0336",
+              "start": 118080,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0337",
+              "start": 118080,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0338",
+              "start": 118080,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0339",
+              "start": 118080,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0340",
+              "start": 119040,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0341",
+              "start": 119040,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0342",
+              "start": 119040,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0343",
+              "start": 119040,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 74,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0344",
+              "start": 120480,
+              "duration": 600,
+              "pitch": 69,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0345",
+              "start": 120480,
+              "duration": 600,
+              "pitch": 72,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0346",
+              "start": 120480,
+              "duration": 600,
+              "pitch": 76,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0347",
+              "start": 120480,
+              "duration": 600,
+              "pitch": 79,
+              "velocity": 80,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0348",
+              "start": 121920,
+              "duration": 720,
+              "pitch": 69,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0349",
+              "start": 121920,
+              "duration": 720,
+              "pitch": 72,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0350",
+              "start": 121920,
+              "duration": 720,
+              "pitch": 76,
+              "velocity": 68,
+              "channel": 3
+            },
+            {
+              "id": "d06-keys-n0351",
+              "start": 121920,
+              "duration": 720,
+              "pitch": 79,
+              "velocity": 68,
+              "channel": 3
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "d06-keys-program",
+              "start": 0,
+              "type": "programChange",
+              "channel": 3,
+              "program": 4
+            }
+          ]
+        }
+      ],
+      "midi": {
+        "busId": "d06-bus-main",
+        "mode": "singleChannel",
+        "channel": 3
+      }
+    },
+    {
+      "id": "d06-bass",
+      "name": "Pocket Bass",
+      "role": "bass",
+      "instrument": {
+        "name": "Finger Bass",
+        "family": "bass"
+      },
+      "trackType": "melodic",
+      "clips": [
+        {
+          "id": "d06-bass-clip",
+          "name": "Bass",
+          "start": 0,
+          "duration": 122880,
+          "notes": [
+            {
+              "id": "d06-bass-n0001",
+              "start": 0,
+              "duration": 1080,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0002",
+              "start": 1440,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0003",
+              "start": 2160,
+              "duration": 720,
+              "pitch": 53,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0004",
+              "start": 3120,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0005",
+              "start": 3840,
+              "duration": 1080,
+              "pitch": 33,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0006",
+              "start": 5280,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0007",
+              "start": 6000,
+              "duration": 720,
+              "pitch": 45,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0008",
+              "start": 6960,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0009",
+              "start": 7680,
+              "duration": 1080,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0010",
+              "start": 9120,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0011",
+              "start": 9840,
+              "duration": 720,
+              "pitch": 55,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0012",
+              "start": 10800,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0013",
+              "start": 11520,
+              "duration": 1080,
+              "pitch": 36,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0014",
+              "start": 12960,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0015",
+              "start": 13680,
+              "duration": 720,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0016",
+              "start": 14640,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0017",
+              "start": 15360,
+              "duration": 1080,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0018",
+              "start": 16800,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0019",
+              "start": 17520,
+              "duration": 720,
+              "pitch": 53,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0020",
+              "start": 18480,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0021",
+              "start": 19200,
+              "duration": 1080,
+              "pitch": 33,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0022",
+              "start": 20640,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0023",
+              "start": 21360,
+              "duration": 720,
+              "pitch": 45,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0024",
+              "start": 22320,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0025",
+              "start": 23040,
+              "duration": 1080,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0026",
+              "start": 24480,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0027",
+              "start": 25200,
+              "duration": 720,
+              "pitch": 55,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0028",
+              "start": 26160,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0029",
+              "start": 26880,
+              "duration": 1080,
+              "pitch": 36,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0030",
+              "start": 28320,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0031",
+              "start": 29040,
+              "duration": 720,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0032",
+              "start": 30000,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0033",
+              "start": 30720,
+              "duration": 1080,
+              "pitch": 38,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0034",
+              "start": 32160,
+              "duration": 480,
+              "pitch": 45,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0035",
+              "start": 32880,
+              "duration": 720,
+              "pitch": 50,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0036",
+              "start": 33840,
+              "duration": 480,
+              "pitch": 45,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0037",
+              "start": 34560,
+              "duration": 1080,
+              "pitch": 43,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0038",
+              "start": 36000,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0039",
+              "start": 36720,
+              "duration": 720,
+              "pitch": 55,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0040",
+              "start": 37680,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0041",
+              "start": 38400,
+              "duration": 1080,
+              "pitch": 36,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0042",
+              "start": 39840,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0043",
+              "start": 40560,
+              "duration": 720,
+              "pitch": 48,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0044",
+              "start": 41520,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0045",
+              "start": 42240,
+              "duration": 1080,
+              "pitch": 41,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0046",
+              "start": 43680,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0047",
+              "start": 44400,
+              "duration": 720,
+              "pitch": 53,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0048",
+              "start": 45360,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0049",
+              "start": 46080,
+              "duration": 1080,
+              "pitch": 34,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0050",
+              "start": 47520,
+              "duration": 480,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0051",
+              "start": 48240,
+              "duration": 720,
+              "pitch": 46,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0052",
+              "start": 49200,
+              "duration": 480,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0053",
+              "start": 49920,
+              "duration": 1080,
+              "pitch": 33,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0054",
+              "start": 51360,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0055",
+              "start": 52080,
+              "duration": 720,
+              "pitch": 45,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0056",
+              "start": 53040,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0057",
+              "start": 53760,
+              "duration": 1080,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0058",
+              "start": 55200,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0059",
+              "start": 55920,
+              "duration": 720,
+              "pitch": 55,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0060",
+              "start": 56880,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0061",
+              "start": 57600,
+              "duration": 1080,
+              "pitch": 36,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0062",
+              "start": 59040,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0063",
+              "start": 59760,
+              "duration": 720,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0064",
+              "start": 60720,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0065",
+              "start": 61440,
+              "duration": 1080,
+              "pitch": 34,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0066",
+              "start": 62880,
+              "duration": 480,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0067",
+              "start": 63600,
+              "duration": 720,
+              "pitch": 46,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0068",
+              "start": 64560,
+              "duration": 480,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0069",
+              "start": 65280,
+              "duration": 1080,
+              "pitch": 33,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0070",
+              "start": 66720,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0071",
+              "start": 67440,
+              "duration": 720,
+              "pitch": 45,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0072",
+              "start": 68400,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0073",
+              "start": 69120,
+              "duration": 1080,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0074",
+              "start": 70560,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0075",
+              "start": 71280,
+              "duration": 720,
+              "pitch": 55,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0076",
+              "start": 72240,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0077",
+              "start": 72960,
+              "duration": 1080,
+              "pitch": 36,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0078",
+              "start": 74400,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0079",
+              "start": 75120,
+              "duration": 720,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0080",
+              "start": 76080,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0081",
+              "start": 76800,
+              "duration": 1080,
+              "pitch": 38,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0082",
+              "start": 78240,
+              "duration": 480,
+              "pitch": 45,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0083",
+              "start": 78960,
+              "duration": 720,
+              "pitch": 50,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0084",
+              "start": 79920,
+              "duration": 480,
+              "pitch": 45,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0085",
+              "start": 80640,
+              "duration": 1080,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0086",
+              "start": 82080,
+              "duration": 480,
+              "pitch": 47,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0087",
+              "start": 82800,
+              "duration": 720,
+              "pitch": 52,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0088",
+              "start": 83760,
+              "duration": 480,
+              "pitch": 47,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0089",
+              "start": 84480,
+              "duration": 1080,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0090",
+              "start": 85920,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0091",
+              "start": 86640,
+              "duration": 720,
+              "pitch": 55,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0092",
+              "start": 87600,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0093",
+              "start": 88320,
+              "duration": 1080,
+              "pitch": 36,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0094",
+              "start": 89760,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0095",
+              "start": 90480,
+              "duration": 720,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0096",
+              "start": 91440,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0097",
+              "start": 92160,
+              "duration": 1080,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0098",
+              "start": 93600,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0099",
+              "start": 94320,
+              "duration": 720,
+              "pitch": 53,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0100",
+              "start": 95280,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0101",
+              "start": 96000,
+              "duration": 1080,
+              "pitch": 33,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0102",
+              "start": 97440,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0103",
+              "start": 98160,
+              "duration": 720,
+              "pitch": 45,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0104",
+              "start": 99120,
+              "duration": 480,
+              "pitch": 40,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0105",
+              "start": 99840,
+              "duration": 1080,
+              "pitch": 43,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0106",
+              "start": 101280,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0107",
+              "start": 102000,
+              "duration": 720,
+              "pitch": 55,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0108",
+              "start": 102960,
+              "duration": 480,
+              "pitch": 50,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0109",
+              "start": 103680,
+              "duration": 1080,
+              "pitch": 36,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0110",
+              "start": 105120,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0111",
+              "start": 105840,
+              "duration": 720,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0112",
+              "start": 106800,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0113",
+              "start": 107520,
+              "duration": 1080,
+              "pitch": 34,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0114",
+              "start": 108960,
+              "duration": 480,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0115",
+              "start": 109680,
+              "duration": 720,
+              "pitch": 46,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0116",
+              "start": 110640,
+              "duration": 480,
+              "pitch": 41,
+              "velocity": 82,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0117",
+              "start": 111360,
+              "duration": 1080,
+              "pitch": 36,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0118",
+              "start": 112800,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0119",
+              "start": 113520,
+              "duration": 720,
+              "pitch": 48,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0120",
+              "start": 114480,
+              "duration": 480,
+              "pitch": 43,
+              "velocity": 85,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0121",
+              "start": 115200,
+              "duration": 1080,
+              "pitch": 41,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0122",
+              "start": 116640,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0123",
+              "start": 117360,
+              "duration": 720,
+              "pitch": 53,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0124",
+              "start": 118320,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 88,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0125",
+              "start": 119040,
+              "duration": 1080,
+              "pitch": 41,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0126",
+              "start": 120480,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0127",
+              "start": 121200,
+              "duration": 720,
+              "pitch": 53,
+              "velocity": 91,
+              "channel": 4
+            },
+            {
+              "id": "d06-bass-n0128",
+              "start": 122160,
+              "duration": 480,
+              "pitch": 48,
+              "velocity": 91,
+              "channel": 4
+            }
+          ]
+        }
+      ],
+      "midi": {
+        "busId": "d06-bus-main",
+        "mode": "singleChannel",
+        "channel": 4
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "d06-bus-main",
+        "name": "Main MIDI"
+      }
+    ]
+  }
+}

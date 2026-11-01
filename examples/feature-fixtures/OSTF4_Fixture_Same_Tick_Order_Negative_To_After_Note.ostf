@@ -1,0 +1,169 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Explicit same-tick order -1,0,1,2,3",
+    "description": "OSTF 4.0 feature fixture: Explicit same-tick order -1,0,1,2,3.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-order-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-order-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-order-track",
+    "melodyTrackIds": [
+      "fx-order-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-order-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-order-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-order-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-order-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-order-n1",
+              "start": 960,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-order-neg",
+              "start": 960,
+              "type": "controlChange",
+              "order": -1,
+              "controller": 1,
+              "value": 1
+            },
+            {
+              "id": "fx-order-zero",
+              "start": 960,
+              "type": "controlChange",
+              "order": 0,
+              "controller": 1,
+              "value": 2
+            },
+            {
+              "id": "fx-order-one",
+              "start": 960,
+              "type": "controlChange",
+              "order": 1,
+              "controller": 1,
+              "value": 3
+            },
+            {
+              "id": "fx-order-two",
+              "start": 960,
+              "type": "controlChange",
+              "order": 2,
+              "controller": 1,
+              "value": 4
+            },
+            {
+              "id": "fx-order-three",
+              "start": 960,
+              "type": "controlChange",
+              "order": 3,
+              "controller": 1,
+              "value": 5
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "singleChannel",
+        "busId": "fx-order-bus",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-order-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Poly Pressure Min",
+    "description": "OSTF 4.0 feature fixture: Poly Pressure Min.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-poly-pressure-min-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-poly-pressure-min-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-poly-pressure-min-track",
+    "melodyTrackIds": [
+      "fx-poly-pressure-min-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-poly-pressure-min-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-poly-pressure-min-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-poly-pressure-min-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-poly-pressure-min-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-poly-pressure-min-n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 96
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-poly-pressure-min-pp",
+              "start": 240,
+              "type": "polyPressure",
+              "targetNoteId": "fx-poly-pressure-min-n1",
+              "pitch": 60,
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "singleChannel",
+        "busId": "fx-poly-pressure-min-bus",
+        "channel": 1
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-poly-pressure-min-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "format": "OSTF",
+  "version": "4.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "targetNoteId on CC, Pitch Bend, Channel Pressure and Poly Pressure",
+    "description": "OSTF 4.0 feature fixture: targetNoteId on CC, Pitch Bend, Channel Pressure and Poly Pressure.",
+    "key": {
+      "state": "tonal",
+      "tonic": {
+        "step": "C",
+        "alter": 0
+      },
+      "mode": "major"
+    },
+    "genres": [
+      {
+        "id": "fx-target-genre-1",
+        "name": "Fixture"
+      }
+    ],
+    "moods": [
+      {
+        "id": "fx-target-mood-1",
+        "name": "Neutral"
+      }
+    ],
+    "primaryMelodyTrackId": "fx-target-track",
+    "melodyTrackIds": [
+      "fx-target-track"
+    ]
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "fx-target-sec",
+        "name": "Fixture",
+        "start": 0,
+        "duration": 3840,
+        "role": "test"
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration": 3840
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "fx-target-ch",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ]
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "fx-target-track",
+      "name": "Fixture Track",
+      "clips": [
+        {
+          "id": "fx-target-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "fx-target-n1",
+              "start": 0,
+              "duration": 1800,
+              "pitch": 64,
+              "velocity": 100,
+              "channel": 2
+            }
+          ],
+          "midiEvents": [
+            {
+              "id": "fx-target-cc",
+              "start": 120,
+              "type": "controlChange",
+              "channel": 2,
+              "targetNoteId": "fx-target-n1",
+              "controller": 74,
+              "value": 80
+            },
+            {
+              "id": "fx-target-pb",
+              "start": 360,
+              "type": "pitchBend",
+              "channel": 2,
+              "targetNoteId": "fx-target-n1",
+              "value14": 9000
+            },
+            {
+              "id": "fx-target-cp",
+              "start": 600,
+              "type": "channelPressure",
+              "channel": 2,
+              "targetNoteId": "fx-target-n1",
+              "value": 75
+            },
+            {
+              "id": "fx-target-pp",
+              "start": 840,
+              "type": "polyPressure",
+              "channel": 2,
+              "targetNoteId": "fx-target-n1",
+              "pitch": 64,
+              "value": 88
+            }
+          ]
+        }
+      ],
+      "role": "melody",
+      "instrument": {
+        "name": "Fixture Instrument",
+        "family": "test"
+      },
+      "trackType": "melodic",
+      "midi": {
+        "mode": "multiChannel",
+        "busId": "fx-target-bus"
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "midi": {
+    "buses": [
+      {
+        "id": "fx-target-bus",
+        "name": "Fixture Bus"
+      }
+    ]
+  }
+}
